@@ -1,22 +1,16 @@
 import './styles.css';
+import Video from "../assets/particules.mp4";
 
 export default function Home() {
     return (
         <div className="home">
-
-            <div>
-                <h1>Presentation Moi</h1>
+                <video className='video' src={Video} autoPlay loop muted />
+            <div className='container'>
+                <h1 className='text'>Hi, I'm <span className='letter'>Emanuel</span>and Welcome to my Portfolio</h1>
             </div>
             <div>
-                <h1>Skills</h1>
+                <button>Entrer</button>
             </div>
-            <div>
-                <h1>Projects</h1>
-            </div>
-            <div>
-                <h1>Contact</h1>
-            </div>
-
         </div>
     );
 }
