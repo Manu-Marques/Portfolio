@@ -14,12 +14,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
+    height: 100vh;
 }
 
 .content {
     text-align: center;
-    font-size: 1.5em;
     letter-spacing: 0.1em;
     width: 50%;
 }
@@ -29,10 +29,6 @@
     font-weight: 900;
     color: transparent;
     -webkit-text-stroke: 1px #fff;
-    background : url("../../../src/assets/back.png");
-    -webkit-background-clip: text;
-    background-position: 0 0;
-    animation: back 20s linear infinite;
 }
 
 @keyframes back {
@@ -43,4 +39,7 @@
         background-position: -1000px 0;
     }
 }
+
+    
+
 
