@@ -1,3 +1,5 @@
+
+
 .video {
     position: absolute;
     top: 0;
@@ -10,32 +12,35 @@
 
 .container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
+    align-items: center;    
+}
+
+.content {
+    text-align: center;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    width: 50%;
 }
 
 .text {
-    position: relative;
-    margin: 0;
     font-size: 4em;
     font-weight: 900;
-    color: #fff;
-    z-index: 1;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background : url("../../../src/assets/back.png");
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
 }
 
-.letter {
-   color: rgb(26, 61, 184);
-}
-
-
-@keyframes animate {
+@keyframes back {
     0% {
-        left: 110%;
+        background-position: 0 0;
     }
     100% {
-        left: -20%;
+        background-position: -1000px 0;
     }
 }
 
