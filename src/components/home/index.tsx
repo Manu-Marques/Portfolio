@@ -9,7 +9,7 @@ export default function Home() {
                 </div>
             <div className='container'>
                 <div className="content">
-                    <h1 className='text'>Hi, I'm Emanuel and Welcome to my Portfolio</h1>
+                    <h1 className='text'>Bonjour et Bienvenu dans le Portfolio d'Emanuel !</h1>
                 </div>
             <div>
                 <button>Voyager</button>
