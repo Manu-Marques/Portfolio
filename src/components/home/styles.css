@@ -9,10 +9,10 @@
 }
 
 .container {
-    display: flex;
+    display: grid;
     flex-direction: column;
-    justify-content: center;
     height: 100vh;
+    align-content: space-between ;
 }
 
 .content {
@@ -32,6 +32,7 @@
 .first-line {
     display: flex;
     justify-content: space-between;
+
 }
 
 .second-line {
