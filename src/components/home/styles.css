@@ -1,5 +1,3 @@
-
-
 .video {
     position: absolute;
     top: 0;
@@ -26,19 +24,11 @@
 
 .text {
     font-size: 4em;
-    font-weight: 900;
+    font-weight: 500;
     color: transparent;
     -webkit-text-stroke: 1px #fff;
 }
 
-@keyframes back {
-    0% {
-        background-position: 0 0;
-    }
-    100% {
-        background-position: -1000px 0;
-    }
-}
 
     
 

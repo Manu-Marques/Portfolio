@@ -9,11 +9,21 @@ export default function Home() {
                 </div>
             <div className='container'>
                 <div className="content">
-                    <h1 className='text'>Bonjour et Bienvenu dans le Portfolio d'Emanuel !</h1>
+                    <h1 className='text'>Bienvenue dans le Portfolio d'Emanuel</h1>
                 </div>
-            <div>
-                <button>Voyager</button>
-            </div>
+                <div className='resume'>
+                    <h2 className=''>Emanuel Marques Lé</h2>
+                    <h2 className=''>Développeur Web Front-End</h2>
+                </div>
+                <div className='projects'>
+                    <h2>Projects</h2>
+                </div>
+                <div className='skills'>
+                    <h2>Skills</h2>
+                    </div>
+                <div className='contact'>
+                    <h2>Contact</h2>
+                    </div>
             </div>
         </div>
     );
