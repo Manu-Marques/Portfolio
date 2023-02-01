@@ -16,17 +16,29 @@ export default function Home() {
                     </div>
                     <div className='projects'>
                         <h1 className='word'>Projects</h1>
+                        <div className='planet-lune'>
+                            <div className='lune'>
+                                </div>
+                        </div>
                     </div>
                 </div>
-                <div className="content">
+                 <div className="content">
                     <h1 className='text'>Bienvenue dans le Portfolio d'Emanuel</h1>
                 </div>
                 <div className="second-line">
                     <div className='skills'>
                         <h1 className='word'>Skills</h1>
+                        <div className='planet-neptune'>
+                            <div className='neptune'>
+                                </div>
+                        </div>
                     </div>
                     <div className='contact'>
                         <h1 className='word' >Contact</h1>
+                         <div className='planet-pluton'>
+                            <div className='pluton'>
+                                </div>
+                        </div>
                     </div>
                 </div>
             </div>
