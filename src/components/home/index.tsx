@@ -16,6 +16,10 @@ export default function Home() {
                     </div>
                     <div className='projects'>
                         <h1 className='word'>Projects</h1>
+                        <div className='planet'>
+                            <div className='mars'>
+                                </div>
+                        </div>
                     </div>
                 </div>
                 <div className="content">
@@ -24,9 +28,17 @@ export default function Home() {
                 <div className="second-line">
                     <div className='skills'>
                         <h1 className='word'>Skills</h1>
+                        <div className='planet'>
+                            <div className='mars'>
+                                </div>
+                        </div>
                     </div>
                     <div className='contact'>
                         <h1 className='word' >Contact</h1>
+                         <div className='planet'>
+                            <div className='mars'>
+                                </div>
+                        </div>
                     </div>
                 </div>
             </div>
