@@ -35,67 +35,9 @@
     -webkit-text-stroke: 1px #fff;
 }
 
-.first-line {
-    display: flex;
-    justify-content: space-between;
-}
-
-.second-line {
-    display: flex;
-    justify-content: space-between;
-}
-
 .word {
     color: #fff;
     text-align: center;
-}
-
-.lune {
-    width: 5em;
-    height: 5em;
-    background: url(../../../src/assets/pluton.jpg);
-    box-shadow: inset -2em -2em 2em #000, -0.5em -0.5em 1em #dccba5;
-    position: relative;
-    animation: rotate 10s linear infinite;
-    border-radius: 50%;
-    background-repeat: repeat;
-    background-size: 200% 100%;
-}
-
-
-
-.pluton {
-    width: 2em;
-    height: 2em;
-    background: url(../../../src/assets/lune.jpg);
-    box-shadow: inset -2em -2em 2em #000, -0.5em -0.5em 1em #c0bdb8;
-    position: relative;
-    animation: rotate 10s linear infinite;
-    border-radius: 50%;
-    background-repeat: repeat;
-    background-size: 200% 100%;
-}
-
-
-.neptune {
-    width: 6em;
-    height: 6em;
-    background: url(../../../src/assets/neptune.jpg);
-    box-shadow: inset -2em -2em 2em #000, -0.5em -0.5em 1em #0050fb;
-    position: relative;
-    animation: rotate 10s linear infinite;
-    border-radius: 50%;
-    background-repeat: repeat;
-    background-size: 200% 100%;
-}
-
-
-
-
-@keyframes rotate {
-    to {
-        background-position: -200% 0;
-    }
 }
 
 .experience {
