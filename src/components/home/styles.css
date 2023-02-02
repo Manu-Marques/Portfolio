@@ -22,10 +22,10 @@
     right: 15%;
     bottom: 15%;
     margin: 48px;
-    border: 1px solid #ffffff;
+    border: 2px solid #ffffff;
 }
 
-.about,
+.experience,
 .skills,
 .projects,
 .contact {
@@ -98,7 +98,7 @@
     }
 }
 
-.about {
+.experience {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,11 +108,11 @@
     right: auto;
     bottom: auto;
     z-index: 1;
-    background-color: red;
-    width: 60%;
-    height: 40%;
-    border: 1px solid #ffffff;
+    width: 59.5%;
+    height: 39%;
     margin-top: 0;
+    border: 2px solid #ffffff;
+    border-right: transparent;
 }
 
 .skills {
@@ -125,11 +125,11 @@
     right: 0px;
     bottom: auto;
     z-index: 1;
-    background-color: red;
     width: 40%;
-    height: 60%;
-    border: 1px solid #ffffff;
+    height: 58.9%;
+    border: 2px solid #ffffff;
     margin-top: 0;
+    border-bottom: transparent;
 }
 
 .projects {
@@ -143,10 +143,8 @@
     bottom: 0px;
     z-index: 1;
     align-items: center;
-    background-color: red;
-    border: 1px solid #ffffff;
+    border: 2px solid #ffffff;
     margin-bottom: 0;
-    border: 1px solid #ffffff;
     width: 40%;
     height: 60%;
 }
@@ -161,9 +159,22 @@
     right: 0px;
     bottom: 0px;
     z-index: 1;
-    background-color: red;
-    width: 60%;
+    width: 59.5%;
     height: 40%;
     margin-bottom: 0;
-    border: 1px solid #ffffff;
+    border: 2px solid #ffffff;
+    border-left: transparent;
+}
+
+.about {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 40%;
+    top: 35%;
+    width: 20%;
+    height: 21%;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
 }

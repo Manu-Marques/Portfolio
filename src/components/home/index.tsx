@@ -20,11 +20,11 @@ export default function Home() {
                         </div>
                 </div>
                  <div className="content">
-                    <h1></h1>
                     <h1 className='skills'>Skills</h1>
+                    <h1 className='about'>About</h1>
                     <h1 className='contact'>Contact</h1>
                     <h1 className='projects'>Projects</h1>
-                    <h1 className='about'>About</h1>
+                    <h1 className='experience'>Experience</h1>
                 </div>
                 <div className="second-line">
                         <div className='planet-neptune'>
