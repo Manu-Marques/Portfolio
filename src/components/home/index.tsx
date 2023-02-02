@@ -8,38 +8,16 @@ export default function Home() {
                 <video className='video' src={Video} autoPlay loop muted />
             </div>
             <div className='container'>
-                <div className="first-line">
                     <div className='resume'>
-                        <h1 className='word'>About</h1>
                         <h2 className='word'>Emanuel Marques Lé</h2>
                         <h2 className='word'>Développeur Web Front-End</h2>
                     </div>
-                    <div className='projects'>
-                        <h1 className='word'>Projects</h1>
-                        <div className='planet-lune'>
-                            <div className='lune'>
-                                </div>
-                        </div>
-                    </div>
-                </div>
                  <div className="content">
-                    <h1 className='text'>Bienvenue dans le Portfolio d'Emanuel</h1>
-                </div>
-                <div className="second-line">
-                    <div className='skills'>
-                        <h1 className='word'>Skills</h1>
-                        <div className='planet-neptune'>
-                            <div className='neptune'>
-                                </div>
-                        </div>
-                    </div>
-                    <div className='contact'>
-                        <h1 className='word' >Contact</h1>
-                         <div className='planet-pluton'>
-                            <div className='pluton'>
-                                </div>
-                        </div>
-                    </div>
+                    <h1 className='skills'>Skills</h1>
+                    <h1 className='about'>About</h1>
+                    <h1 className='contact'>Contact</h1>
+                    <h1 className='projects'>Projects</h1>
+                    <h1 className='experience'>Experience</h1>
                 </div>
             </div>
         </div>
