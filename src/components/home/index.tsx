@@ -1,6 +1,7 @@
 import './styles.css';
 import Video from "../../../src/assets/espace.mp4";
 import { Link } from 'react-router-dom';
+import photo from '../../../src/assets/photo.png';
 
 export default function Home() {
     return (
@@ -12,6 +13,7 @@ export default function Home() {
                 <div className='resume'>
                     <h2 className='presentation'>Hi, I'm <span className="presentation-word">Emanuel</span></h2>
                     <h2 className='presentation'>I'm a <span className="presentation-word">Front-Developer</span></h2>
+                    <img className='presentation-img' src={photo} alt="presentation" />
                 </div>
                 <div className="content">
                     <Link to="/experience" className='experience'>Experience</Link>

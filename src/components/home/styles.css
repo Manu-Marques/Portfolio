@@ -72,6 +72,16 @@
     text-decoration: none;
 }
 
+.presentation-img {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    border: 2px solid #ffffff;
+    right: 15%;
+    box-shadow:  0 0 1vw 0vw #1f1ccd;
+}
+
 .experience {
     display: flex;
     justify-content: center;
