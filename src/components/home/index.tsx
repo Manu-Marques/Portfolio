@@ -1,5 +1,7 @@
 import './styles.css';
 import Video from "../../../src/assets/espace.mp4";
+import { Link } from 'react-router-dom';
+import photo from '../../../src/assets/photo.png';
 
 export default function Home() {
     return (
@@ -8,16 +10,17 @@ export default function Home() {
                 <video className='video' src={Video} autoPlay loop muted />
             </div>
             <div className='container'>
-                    <div className='resume'>
-                        <h2 className='word'>Emanuel Marques Lé</h2>
-                        <h2 className='word'>Développeur Web Front-End</h2>
-                    </div>
-                 <div className="content">
-                    <h1 className='skills'>Skills</h1>
-                    <h1 className='about'>About</h1>
-                    <h1 className='contact'>Contact</h1>
-                    <h1 className='projects'>Projects</h1>
-                    <h1 className='experience'>Experience</h1>
+                <div className='resume'>
+                    <h2 className='presentation'>Hi, I'm <span className="presentation-word">Emanuel</span></h2>
+                    <h2 className='presentation'>I'm a <span className="presentation-word">Front-Developer</span></h2>
+                    <img className='presentation-img' src={photo} alt="presentation" />
+                </div>
+                <div className="content">
+                    <Link to="/experience" className='experience'>Experience</Link>
+                    <Link to="/skills" className='skills'>Skills</Link>
+                    <Link to="/about" className='about'>About</Link>
+                    <Link to="projects" className='projects'>Projects</Link>
+                    <Link to="contact" className='contact'>Contact</Link>
                 </div>
             </div>
         </div>
