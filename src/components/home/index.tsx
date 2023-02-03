@@ -10,7 +10,8 @@ export default function Home() {
             </div>
             <div className='container'>
                 <div className='resume'>
-                    <h2 className='word'>Bonjour et bienvenue dans le Portfolio d'Emanuel Marques Lé </h2>
+                    <h2 className='presentation'>Hi, I'm <span className="presentation-word">Emanuel</span></h2>
+                    <h2 className='presentation'>I'm a <span className="presentation-word">Front-Developer</span></h2>
                 </div>
                 <div className="content">
                     <Link to="/experience" className='experience'>Experience</Link>
