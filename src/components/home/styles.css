@@ -23,6 +23,8 @@
     bottom: 15%;
     margin: 48px;
     border: 2px solid #ffffff;
+    box-shadow:  0 0 10vw 0vw #1f1ccd;
+
 }
 
 .experience,
@@ -33,6 +35,16 @@
     font-weight: 500;
     color: transparent;
     -webkit-text-stroke: 1px #fff;
+    text-shadow: 1px -5px 2px rgb(110, 13, 139), 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.experience:hover,
+.skills:hover,
+.projects:hover,
+.contact:hover {
+    color: #fff;
+    text-shadow: 1px -5px 2px rgb(110, 13, 139), 0 0 1em blue, 0 0 0.2em blue;
+    cursor: pointer;
 }
 
 .word {
@@ -73,7 +85,7 @@
     margin-top: 0;
 }
 
-.projects {
+.contact {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,7 +102,7 @@
     height: 60%;
 }
 
-.contact {
+.projects {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,10 +117,6 @@
     margin-bottom: 0;
     border: 2px solid #ffffff;
     border-left: transparent;
-}
-
-.contact:hover {
-    
 }
 
 .about {
