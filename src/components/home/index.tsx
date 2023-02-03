@@ -1,5 +1,6 @@
 import './styles.css';
 import Video from "../../../src/assets/espace.mp4";
+import { Link } from 'react-router-dom';
 
 export default function Home() {
     return (
@@ -12,11 +13,11 @@ export default function Home() {
                     <h2 className='word'>Bonjour et bienvenue dans le Portfolio d'Emanuel Marques Lé </h2>
                 </div>
                 <div className="content">
-                    <h1 className='experience'>Experience</h1>
-                    <h1 className='skills'>Skills</h1>
-                    <h1 className='about'>About</h1>
-                    <h1 className='projects'>Projects</h1>
-                    <h1 className='contact'>Contact</h1>
+                    <Link to="/experience" className='experience'>Experience</Link>
+                    <Link to="/skills" className='skills'>Skills</Link>
+                    <Link to="/about" className='about'>About</Link>
+                    <Link to="projects" className='projects'>Projects</Link>
+                    <Link to="contact" className='contact'>Contact</Link>
                 </div>
             </div>
         </div>
