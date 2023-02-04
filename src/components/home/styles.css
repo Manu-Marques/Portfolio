@@ -82,6 +82,15 @@
     box-shadow:  0 0 1vw 0vw #1f1ccd;
 }
 
+.more-info {
+    position: absolute;
+    right: 15%;
+    width: 70%;
+    height: 70%;
+    border: 1px solid #ffffff;
+    box-shadow:  0 0 10vw 0vw rgb(110, 13, 139);
+}
+
 .experience {
     display: flex;
     justify-content: center;
