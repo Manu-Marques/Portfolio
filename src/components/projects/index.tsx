@@ -1,15 +1,17 @@
 import './styles.css'
-import Video from "../../../src/assets/espace.mp4";
-
+import Artisenbois from './artisenbois';
 
 export default function Projects() {
     return (
         <div className="projects-main">
-            <div className="layout">
-                <video className='video' src={Video} autoPlay loop muted />
-            </div>
-            <h1>Projects</h1>
-            <div className="projects-container">
+            <h1 className='projects-title'>Projects</h1>
+            <div className="projects-display">
+                <div className='projects-navigate'>
+                    <input type="radio"></input>
+                    <label className='projects-subtitle'>Artisenbois</label>
+                </div>
+                <div className="projects-container">
+                </div>
             </div>
         </div>
     );
