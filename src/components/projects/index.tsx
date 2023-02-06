@@ -1,15 +1,16 @@
 import './styles.css'
-import Video from "../../../src/assets/espace.mp4";
 
 
 export default function Projects() {
     return (
         <div className="projects-main">
-            <div className="layout">
-                <video className='video' src={Video} autoPlay loop muted />
-            </div>
-            <h1>Projects</h1>
+            <h1 className='projects-title'>Projects</h1>
             <div className="projects-container">
+            </div>
+            <div>
+                <h2 className='projects-subtitle'>Artisenbois</h2>
+                <h2 className='projects-subtitle'>ToDoList</h2>
+                <h2 className='projects-subtitle'>Pokemon Finder</h2>
             </div>
         </div>
     );

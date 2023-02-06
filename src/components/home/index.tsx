@@ -1,14 +1,10 @@
 import './styles.css';
-import Video from "../../../src/assets/espace.mp4";
 import { Link } from 'react-router-dom';
 import photo from '../../../src/assets/photo2.jpg';
 
 export default function Home() {
     return (
         <div className="home">
-            <div className="layout">
-                <video className='video' src={Video} autoPlay loop muted />
-            </div>
             <div className='container'>
                 <div className='resume'>
                     <h2 className='presentation'>Hi, I'm <span className="presentation-word">Emanuel</span></h2>
