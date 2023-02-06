@@ -13,19 +13,14 @@ export default function Home() {
                 <div className='resume'>
                     <h2 className='presentation'>Hi, I'm <span className="presentation-word">Emanuel</span></h2>
                     <h2 className='presentation'>I'm a <span className="presentation-word">Front-Developer</span></h2>
-                    <img className='presentation-img' src={photo} alt="presentation" />
-                    <div className='more-info'>
-                        <h2 className=''>I'm 35 years old</h2>
-                        <h2>I'm a </h2>
-                        <h2>I'm 35 years old</h2>
-                    </div>
+                    <img className='presentation-img' src={photo} alt="moi" />
                 </div>
                 <div className="content">
                     <Link to="/experience" className='experience'>Experience</Link>
                     <Link to="/skills" className='skills'>Skills</Link>
                     <Link to="/about" className='about'>About</Link>
-                    <Link to="projects" className='projects'>Projects</Link>
-                    <Link to="contact" className='contact'>Contact</Link>
+                    <Link to="/projects" className='projects'>Projects</Link>
+                    <Link to="/contact" className='contact'>Contact</Link>
                 </div>
             </div>
         </div>
