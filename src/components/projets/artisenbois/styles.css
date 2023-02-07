@@ -3,7 +3,6 @@
 
 .artisenbois-img{
     width: 55%;
-    height: 70%;
     object-fit: cover;
     border: 2px solid #ffffff;
     right: 15%;
@@ -15,10 +14,10 @@
 }
 
 .artisenbois-info{
-    width: 40%;
-    height: 58.9%;
+    width: 100%;
     border: 2px solid #ffffff;
-    margin-top: 0;
+    margin-left: 10px;
+    text-align: center;
 }
 
 .projet-link {
