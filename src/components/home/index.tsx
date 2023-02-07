@@ -15,7 +15,7 @@ export default function Home() {
                     <Link to="/experience" className='experience'>Experience</Link>
                     <Link to="/skills" className='skills'>Skills</Link>
                     <Link to="/about" className='about'>About</Link>
-                    <Link to="/projects" className='projects'>Projects</Link>
+                    <Link to="/projets" className='projets'>Projets</Link>
                     <Link to="/contact" className='contact'>Contact</Link>
                 </div>
             </div>
