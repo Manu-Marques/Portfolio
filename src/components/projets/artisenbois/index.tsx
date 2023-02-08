@@ -1,12 +1,12 @@
 import './styles.css';
-import artisenbois from '../../../assets/artisenbois.png';
+import logo from '../../../assets/logo.jpg';
 
 export default function Artisenbois() {
     return (
         <div className="artisenbois">
             <h1 className='artisenbois-title'>Artisenbois</h1>
             <div className="artisenbois-container">
-                <img className='artisenbois-img' src={artisenbois}></img>
+                <img className='artisenbois-img' src={logo}></img>
                 <div className="artisenbois-info">
                     <h2 className="artisenbois-subtitle">Résumé du projet</h2>
                     <p className="artisenbois-text">Ce site web a été réalisé dans le cadre d'un projet perso, c'était le premier projet que je réalisais après la fin de formation. Le but était de créer un site de type vitrine.</p>
