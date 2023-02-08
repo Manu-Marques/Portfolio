@@ -9,11 +9,17 @@ export default function Artisenbois() {
                 <img className='artisenbois-img' src={artisenbois}></img>
                 <div className="artisenbois-info">
                     <h2 className="artisenbois-subtitle">Résumé du projet</h2>
-                    <p className="artisenbois-text">Premier projet crée, ce site web est de type vitrine</p>
-                    <p className="artisenbois-text">Il a été réalisé avec HTML/CSS</p>
-                    <p className="artisenbois-text">Il a été réalisé avec le framework ReactJS</p>
-                    <p className="artisenbois-text">Il est hébergé sur Vercel</p>
-                    <p className="artisenbois-text">Il est responsive</p>
+                    <p className="artisenbois-text">Ce site web a été réalisé dans le cadre d'un projet perso, c'était le premier projet que je réalisais après la fin de formation. Le but était de créer un site de type vitrine.</p>
+                    <div className="artisenbois-description">
+                        <h2 className="artisenbois-subtitle">Outils de développement utilisés</h2>
+                        <ul className="artisenbois-list">
+                            <li className="artisenbois-item">Design <span className="artisenbois-word">HTML/CSS</span></li>
+                            <li className="artisenbois-item">Langage <span className="artisenbois-word">JavaScript</span></li>
+                            <li className="artisenbois-item">Framework <span className="artisenbois-word">React</span></li>
+                            <li className="artisenbois-item">Deploiement avec <span className="artisenbois-word">Vercel</span></li>
+                            <li className="artisenbois-item">Responsive avec <span className="artisenbois-word">Media Query</span></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div className="projet-visite">
