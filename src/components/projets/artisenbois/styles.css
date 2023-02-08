@@ -1,23 +1,44 @@
-.artisenbois{
+.artisenbois-title{
+    margin-top: 0;
 }
 
-.artisenbois-img{
-    width: 55%;
-    object-fit: cover;
-    border: 2px solid #ffffff;
-    right: 15%;
-    box-shadow:  0 0 1vw 0vw #1f1ccd;
-}
-
-.artisenbois-container{
+.artisenbois-container {
     display: flex;
+    justify-content: center;
 }
 
-.artisenbois-info{
-    width: 100%;
+.artisenbois-info {
+    width: 50%;
+    height: 100%;
     border: 2px solid #ffffff;
     margin-left: 10px;
     text-align: center;
+}
+
+.artisenbois-text{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.artisenbois-description {
+    border-top: 2px solid #ffffff;
+}
+.artisenbois-list {
+    padding-left: 0;
+}
+
+.artisenbois-item {
+    list-style: none;
+    font-size: 1rem;
+
+}
+
+
+.artisenbois-word {
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    text-shadow: 1px -5px 2px, 0 0 1em blue, 0 0 0.2em blue;
+    text-decoration: none;
 }
 
 .projet-link {
