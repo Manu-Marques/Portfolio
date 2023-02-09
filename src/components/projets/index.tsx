@@ -7,7 +7,7 @@ export default function Projets() {
         <h1 className="projets-title">Projets</h1> 
         <div className="projets-table">
             <div className="projets-btn">
-                 <button className="btn">ArtisenBois</button>
+                 <button className="btn active">ArtisenBois</button>
                  <button className="btn">ToDoList</button>
                  <button className="btn">Pokemon Finder</button>
             </div>
