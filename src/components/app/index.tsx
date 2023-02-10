@@ -3,7 +3,7 @@ import "./styles.css";
 import { Routes, Route } from 'react-router-dom';
 import Home from '../home';
 import Projets from "../projets";
-import Skills from "../skills";
+import Skills from "../Skills";
 import Contact from "../contact";
 import Background from "../background";
 

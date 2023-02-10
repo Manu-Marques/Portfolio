@@ -15,7 +15,7 @@ export default function Projets() {
                  <button className="btn">Pokemon Finder</button>
             </div>
             <div className="projets-contents">
-                 <Todolist/>
+                 <Artisenbois/>
             </div>
         </div>
    </div>  
