@@ -15,6 +15,7 @@ export default function Todolist() {
                         <ul className="todolist-list">
                             <li className="todolist-item">Design <span className="todolist-word">HTML/CSS</span></li>
                             <li className="todolist-item">Langage <span className="todolist-word">JavaScript</span></li>
+                            <li className="todolist-item">Utilisation de la méthode <span className="todolist-word">CRUD</span></li>
                             <li className="todolist-item">Deploiement avec <span className="todolist-word">Vercel</span></li>
                             <li className="todolist-item">Responsive avec <span className="todolist-word">Media Query</span></li>
                         </ul>
