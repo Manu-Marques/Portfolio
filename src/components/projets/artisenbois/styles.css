@@ -1,6 +1,7 @@
 .artisenbois-title{
     margin-top: 0;
-    
+    color: #fff;
+    text-shadow: 1px -5px 2px rgb(110, 13, 139), 0 0 1em blue, 0 0 0.2em blue;
 }
 
 .artisenbois-container {
@@ -31,9 +32,7 @@
 .artisenbois-item {
     list-style: none;
     font-size: 1rem;
-
 }
-
 
 .artisenbois-word {
     color: transparent;
@@ -42,7 +41,13 @@
     text-decoration: none;
 }
 
-.projet-link {
+.artisenbois-visite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.artisenbois-link {
     background: #fff;
     color: #111;
     max-width: 150px;
@@ -52,11 +57,12 @@
     margin-top: 20px;
     display: inline-block;
     transition: .5s;
+   border: #ffffff 1px solid;
 }
 
-.projet-visite {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+.artisenbois-link:hover {
+    color: transparent;
+    text-shadow: 1px -5px 2px rgb(110, 13, 139), 0 0 1em blue, 0 0 0.2em blue;
+    -webkit-text-stroke: 1px #fff;
+    background-color: transparent;
 }

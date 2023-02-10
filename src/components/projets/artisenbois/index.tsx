@@ -22,8 +22,8 @@ export default function Artisenbois() {
                     </div>
                 </div>
             </div>
-            <div className="projet-visite">
-                <a href="https://projetartisenbois.vercel.app/" target="_blank" className="projet-link">Visiter le site</a>
+            <div className="artisenbois-visite">
+                <a href="https://projetartisenbois.vercel.app/" target="_blank" className="artisenbois-link">Visiter le site</a>
             </div>
         </div>
     );
