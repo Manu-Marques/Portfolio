@@ -1,6 +1,6 @@
 import './styles.css';
 import { Link } from 'react-router-dom';
-import photo from '../../../src/assets/photo2.jpg';
+import photo from '../../../src/assets/photo.jpg';
 
 export default function Home() {
     return (
@@ -12,8 +12,8 @@ export default function Home() {
                     <img className='presentation-img' src={photo} alt="moi" />
                 </div>
                 <div className="content">
-                    <Link to="/experience" className='experience'>Experience</Link>
-                    <Link to="/skills" className='skills'>Skills</Link>
+                    <Link to="/experience" className='experience'>Expériences</Link>
+                    <Link to="/skills" className='skills'>Compétences</Link>
                     <Link to="/about" className='about'>About</Link>
                     <Link to="/projets" className='projets'>Projets</Link>
                     <Link to="/contact" className='contact'>Contact</Link>

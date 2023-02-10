@@ -1,15 +1,15 @@
-.artisenbois-title {
+.pokemon-title {
     margin-top: 0;
     color: #fff;
     text-shadow: 1px -5px 2px rgb(110, 13, 139), 0 0 1em blue, 0 0 0.2em blue;
 }
 
-.artisenbois-container {
+.pokemon-container {
     display: flex;
     justify-content: center;
 }
 
-.artisenbois-info {
+.pokemon-info {
     width: 50%;
     height: 100%;
     border: 2px solid #ffffff;
@@ -17,39 +17,39 @@
     text-align: center;
 }
 
-.artisenbois-text {
+.pokemon-text {
     padding-left: 10px;
     padding-right: 10px;
 }
 
-.artisenbois-description {
+.pokemon-description {
     border-top: 2px solid #ffffff;
 }
 
-.artisenbois-list {
+.pokemon-list {
     padding-left: 0;
 }
 
-.artisenbois-item {
+.pokemon-item {
     list-style: none;
     font-size: 1rem;
 }
 
-.artisenbois-word {
+.pokemon-word {
     color: transparent;
     -webkit-text-stroke: 1px #fff;
     text-shadow: 1px -5px 2px, 0 0 1em blue, 0 0 0.2em blue;
     text-decoration: none;
 }
 
-.artisenbois-visite {
+.pokemon-visite {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
 }
 
-.artisenbois-link {
+.pokemon-link {
     background: #fff;
     color: #111;
     max-width: 150px;
@@ -62,7 +62,7 @@
     border: #ffffff 1px solid;
 }
 
-.artisenbois-link:hover {
+.pokemon-link:hover {
     color: transparent;
     text-shadow: 1px -5px 2px rgb(110, 13, 139), 0 0 1em blue, 0 0 0.2em blue;
     -webkit-text-stroke: 1px #fff;
