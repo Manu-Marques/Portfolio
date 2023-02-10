@@ -1,5 +1,7 @@
 import './styles.css'
 import Artisenbois from './artisenbois';
+import Todolist from './todolist';
+import PokemonFinder from './pokemonFinder';
 
 export default function Projets() {
     return (
@@ -13,7 +15,7 @@ export default function Projets() {
                  <button className="btn">Pokemon Finder</button>
             </div>
             <div className="projets-contents">
-                 <Artisenbois/>
+                 <Todolist/>
             </div>
         </div>
    </div>  

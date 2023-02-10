@@ -1,6 +1,6 @@
 import './styles.css';
 import { Link } from 'react-router-dom';
-import photo from '../../../src/assets/photo2.jpg';
+import photo from '../../../src/assets/photo.jpg';
 
 export default function Home() {
     return (
