@@ -28,22 +28,35 @@ export default function Skills() {
                     </div>
                     <div className="skills-stack">
                         <h1 className="skills-subtitle">Stack</h1>
-                        <ul className="skills-list">
-                            <li className="skills-item">HTML</li>
-                            <li className="skills-item">HTML</li>
-                            <li className="skills-item">HTML</li>
-                            <li className="skills-item">HTML</li>
-                            <li className="skills-item">HTML</li>
-                        </ul>
+                        <div className="skills-stack-list">
+                            <ul className="skills-front">
+                                <h1 className="skills-front-title">Front</h1>
+                                <li className="skills-item">Html/Css</li>
+                                <li className="skills-item">JavaScript</li>
+                                <li className="skills-item">React</li>
+                                <li className="skills-item">Tailwind</li>
+                                <li className="skills-item">TypeScript</li>
+                            </ul>
+                            <ul className="skills-back">
+                                <h1 className="skills-back-title">Back</h1>
+                                <li className="skills-item">Node.js</li>
+                                <li className="skills-item">PostgreSQL</li>
+                            </ul>
+                            <ul className="skills-others">
+                                <h1 className="skills-others-title">Autres</h1>
+                                <li className="skills-item">Git/GitHub</li>
+                                <li className="skills-item">Test unitaire (Jest)</li>
+                                <li className="skills-item">Figma</li>
+                            </ul>
+
+                        </div>
                     </div>
                     <div className="skills-languages">
                         <h1 className="skills-subtitle">Langues</h1>
                         <ul className="skills-list">
-                            <li className="skills-item">HTML</li>
-                            <li className="skills-item">HTML</li>
-                            <li className="skills-item">HTML</li>
-                            <li className="skills-item">HTML</li>
-                            <li className="skills-item">HTML</li>
+                            <li className="skills-item">Français</li>
+                            <li className="skills-item">Anglais</li>
+                            <li className="skills-item">Portugais</li>
                         </ul>
                     </div>
                 </div>

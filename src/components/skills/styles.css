@@ -30,11 +30,29 @@
     padding: 20px;
     margin: 20px;
     list-style: none;
-    height:330px;
+    height:450px;
 }
 
 .skills-list {
     padding-left: 0;
+}
+
+.skills-stack-list{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -10px;
+}
+
+.skills-front {
+    padding-left: 0;
+}
+
+.skills-front,
+.skills-back,
+.skills-others {
+  border: #ffffff 2px solid;
+  margin: 10px;
+  padding-left: 0;
 }
 
 .skills-subtitle {
@@ -47,7 +65,15 @@
     text-decoration: underline;
 }
 
+.skills-front-title,
+.skills-back-title,
+.skills-others-title {
+    font-size: 1.5em;
+    text-align: center;
+}
+
 .skills-item {
     font-size: 1.5em;
     list-style: none;
+    margin: 10px;
 }
