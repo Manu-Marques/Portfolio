@@ -1,6 +1,6 @@
 .skills-title {
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
     color: transparent;
     -webkit-text-stroke: 1px #fff;
     text-shadow: 1px -5px 2px rgb(110, 13, 139), 0 0 1em blue, 0 0 0.2em blue;
@@ -35,7 +35,6 @@
 .skills-soft,
 .skills-languages {
     border: 2px solid #ffffff;
-    padding: 5px;
     margin: 20px;
     list-style: none;
 }
@@ -55,14 +54,12 @@
 .skills-others {
   border: #ffffff 2px solid;
   margin: 10px;
-  padding-left: 0;
   padding: 5px;
 }
 
 .skills-subtitle {
     font-size: 1.5em;
     text-align: center;
-    color: transparent;
     color: #ffffff;
     -webkit-text-stroke: 1px #fff;
     text-shadow: 1px -5px 2px rgb(110, 13, 139), 0 0 1em blue, 0 0 0.2em blue;
@@ -74,10 +71,16 @@
 .skills-others-title {
     font-size: 1.5em;
     text-align: center;
+    text-decoration: underline;
 }
 
 .skills-item {
     font-size: 20px;
     margin: 10px;
     list-style-type: none;
+}
+
+.skills-languages{
+    align-self: center;
+    margin-top: 0;
 }
