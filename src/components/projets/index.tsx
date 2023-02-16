@@ -2,7 +2,6 @@ import './styles.css'
 import Artisenbois from './artisenbois';
 import Todolist from './todolist';
 import PokemonFinder from './pokemonFinder';
-import Arrow from '../../assets/arrow.png';
 
 export default function Projets() {
     return (

@@ -5,6 +5,8 @@ import Home from '../home';
 import Projets from "../projets";
 import Skills from "../skills";
 import Contact from "../contact";
+import Experience from "../experience";
+import Career from "../career";
 import Background from "../background";
 
 
@@ -15,7 +17,9 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projets" element={<Projets />} />
-        <Route path="/skills" element={<Skills />} />
+        <Route path="/competences" element={<Skills />} />
+        <Route path="/experience" element={<Experience />} />
+        <Route path="/parcours" element={<Career />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
