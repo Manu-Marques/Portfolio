@@ -26,23 +26,9 @@
     font-size: 18px;
 }
 
-.projets-btn-arrow {
-    position: absolute;
-    right: 20%;
-    background-color: transparent;
-    color: #fff;
-    border: 2px solid #ffffff;
-    cursor: pointer;
-    width: 5%;
-    height: 3%;
-    font-size: 18px;
-}
 
-.projets-arrow{
-    width: 60%;
-}
 
-.btn-back {
+.projets-btn-back {
     position: absolute;
     left: 20%;
     background-color: transparent;
@@ -54,7 +40,7 @@
     font-size: 18px;
 }
 
-.btn-back:hover {
+.projets-btn-back:hover {
     color: black;
     background-color: white;
     cursor: pointer;

@@ -8,9 +8,8 @@ export default function Projets() {
     return (
         <div className="projets-main">  
         <h1 className="projets-title">Projets</h1>
-        <div className="projets-btn-arrow">
-            <img className="projets-arrow" src={Arrow} alt="arrow"/>
-            <button className="btn-back">Retour</button>
+        <div className="projets-btn">
+            <button className="projets-btn-back">Retour</button>
         </div>
         <div className="projets-table">
             <div className="projets-btn">

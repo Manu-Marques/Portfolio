@@ -1,9 +1,35 @@
 .skills-title {
+    padding-bottom: 10px;
     text-align: center;
     font-size: 3em;
     color: transparent;
     -webkit-text-stroke: 1px #fff;
     text-shadow: 1px -5px 2px rgb(110, 13, 139), 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.skills-btn-back {
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    width: 5%;
+    height: 3%;
+    font-size: 18px;
+
+}
+
+.skills-btn-back:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.skills-btn:hover {
+    color: #fff;
+    cursor: pointer;
 }
 
 .skills-table {

@@ -4,6 +4,9 @@ export default function Skills() {
     return (
         <div className="skills-main">
             <h1 className="skills-title">Compétences</h1>
+            <div className="skills-btn">
+            <button className="skills-btn-back">Retour</button>
+        </div>
             <div className="skills-table">
                 <div className="skills-container">
                     <div className="skills-left">
