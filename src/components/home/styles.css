@@ -27,7 +27,7 @@
 .experience,
 .skills,
 .projets,
-.contact {
+.parcours {
     font-size: 4em;
     font-weight: 500;
     color: transparent;
@@ -39,7 +39,7 @@
 .experience:hover,
 .skills:hover,
 .projets:hover,
-.contact:hover {
+.parcours:hover {
     color: #fff;
     text-shadow: 1px -5px 2px rgb(110, 13, 139), 0 0 1em blue, 0 0 0.2em blue;
     cursor: pointer;
@@ -103,7 +103,7 @@
     margin-top: 0;
 }
 
-.contact {
+.parcours {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -137,7 +137,7 @@
     border-left: transparent;
 }
 
-.about {
+.contact {
     position: absolute;
     display: flex;
     justify-content: center;

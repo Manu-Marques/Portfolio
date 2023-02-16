@@ -2,6 +2,7 @@
     margin-top: 0;
     color: #fff;
     text-shadow: 1px -5px 2px rgb(110, 13, 139), 0 0 1em blue, 0 0 0.2em blue;
+    text-decoration: underline;
 }
 
 .todolist-container {

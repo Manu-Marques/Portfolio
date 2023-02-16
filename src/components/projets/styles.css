@@ -26,8 +26,6 @@
     font-size: 18px;
 }
 
-
-
 .projets-btn-back {
     position: absolute;
     left: 20%;
@@ -43,11 +41,6 @@
 .projets-btn-back:hover {
     color: black;
     background-color: white;
-    cursor: pointer;
-}
-
-.btn:hover {
-    color: #fff;
     cursor: pointer;
 }
 
