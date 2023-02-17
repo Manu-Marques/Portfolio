@@ -147,7 +147,16 @@
     top: 35%;
     width: 20%;
     height: 28%;
+    color: #fff;
+    text-shadow: 1px -5px 2px rgb(110, 13, 139), 0 0 1em blue, 0 0 0.2em blue;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.contact:hover {
     color: transparent;
     -webkit-text-stroke: 1px #fff;
-    text-decoration: none;
+    text-shadow: 1px -5px 2px rgb(110, 13, 139), 0 0 1em blue, 0 0 0.2em blue;
+    cursor: pointer;
 }

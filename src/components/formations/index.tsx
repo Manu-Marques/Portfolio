@@ -19,7 +19,7 @@ export default function Formations() {
                                     | <span className="formations-item-word">CSS</span> | <span className="formations-item-word">Javascript </span>
                                     | <span className="formations-item-word">Node.js</span> | <span className="formations-item-word">PostgreSQL</span></li>
                                 <li className="formations-item">- 1 mois de spécialisation : <span className="formations-item-word">React</span> |
-                                <span className="formations-item-word"> Redux</span></li>
+                                    <span className="formations-item-word"> Redux</span></li>
                                 <li className="formations-item">- 1 mois de projet en équipe: O'Food </li>
                             </ul>
                             <div className="formations-row">
