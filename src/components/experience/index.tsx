@@ -20,6 +20,9 @@ export default function Experience() {
                                 <li className='experience-item'>(Journal de bord, document de veille)</li>
                                 <li className='experience-item'>- Utilisation de la méthode Kanban </li>
                             </ul>
+                            <div className="experience-row">
+                                <p className='experience-year'>Avril 2022 à Mai 2022</p>
+                            </div>
                         </div>
                         <div className="experience-stavo">
                             <h1 className='experience-subtitle'>Chauffeur de Bus</h1>
@@ -30,6 +33,9 @@ export default function Experience() {
                                 <li className='experience-item'>- Respect des règles de sécurité et de conduite</li>
                                 <li className='experience-item'>- Gestion de la relation client</li>
                             </ul>
+                            <div className="experience-row">
+                                <p className='experience-year'>Décembre 2013 à Décembre 2021</p>
+                            </div>
                         </div>
                     </div>
                     <div className="experience-right">
@@ -42,6 +48,9 @@ export default function Experience() {
                                 <li className='experience-item'>- Gestion des horaires de départ</li>
                                 <li className='experience-item'>- Gestion des stocks</li>
                             </ul>
+                            <div className="experience-row">
+                                <p className='experience-year'>Novembre 2010 à Novembre 2012</p>
+                            </div>
                         </div>
                         <div className="experience-restaurant">
                             <h1 className='experience-subtitle'>Équipier Polyvalent</h1>
@@ -52,6 +61,9 @@ export default function Experience() {
                                 <li className='experience-item'>- Préparation des commandes</li>
                                 <li className='experience-item'>- Gestion des stocks</li>
                             </ul>
+                            <div className="experience-row">
+                                <p className='experience-year'>Novembre 2009 à Octobre 2010</p>
+                            </div>
                         </div>
                     </div>
                 </div>

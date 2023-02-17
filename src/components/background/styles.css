@@ -8,7 +8,7 @@
     z-index: -1;
 }
 
-@media screen and (max-width: 1900px) {
+@media screen and (max-width: 1914px) {
     .video {
       width: 100%;
       height: 950px;
@@ -17,7 +17,7 @@
 
   @media (max-aspect-ratio: 16/9) {
     .video {
-      height: 1000px;
+      height: 1100px;
     }
   }
 

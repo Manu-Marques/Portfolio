@@ -16,7 +16,7 @@ export default function Home() {
                     <Link to="/competences" className='skills'>Compétences</Link>
                     <Link to="/contact" className='contact'>Contact</Link>
                     <Link to="/projets" className='projets'>Projets</Link>
-                    <Link to="/parcours" className='parcours'>Parcours</Link>
+                    <Link to="/formations" className='formations'>Formations</Link>
                 </div>
             </div>
         </div>
