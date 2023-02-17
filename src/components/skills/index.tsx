@@ -13,11 +13,11 @@ export default function Skills() {
                         <div className="skills-expertise">
                             <h1 className="skills-subtitle">Savoir faire</h1>
                             <ul className="skills-list">
-                                <li className="skills-item">- Anasyler le besoin du client</li>
                                 <li className="skills-item">- Méthode Agile</li>
                                 <li className="skills-item">- Concevoir une maquette de présentation</li>
                                 <li className="skills-item">- Planifier les étapes d'un projet</li>
-                                <li className="skills-item">- Établier un chaier des charges</li>
+                                <li className="skills-item">- Établier un cahier des charges</li>
+                                <li className="skills-item">- Anasyler le besoin du client</li>
                             </ul>
                         </div>
                         <div className="skills-soft">

@@ -89,3 +89,20 @@
     margin: 10px;
     list-style: none;
 }
+
+.experience-row{
+    display: flex;
+    justify-content: center;
+}
+
+.experience-year{
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+    width: 70%;
+    border-radius: 10px;
+    padding: 2px;
+}
