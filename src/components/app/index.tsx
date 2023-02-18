@@ -6,14 +6,14 @@ import Projets from "../projets";
 import Skills from "../skills";
 import Experience from "../experience";
 import Formations from "../formations";
-import Footer from "../footer";
+import Contact from "../contact";
 import Background from "../background";
 
 
 export default function App() {
   return (
     <div className="App">
-      <Footer />
+      <Contact />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projets" element={<Projets />} />
