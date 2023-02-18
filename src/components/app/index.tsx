@@ -7,13 +7,13 @@ import Skills from "../skills";
 import Contact from "../contact";
 import Experience from "../experience";
 import Formations from "../formations";
+import Footer from "../footer";
 import Background from "../background";
 
 
 export default function App() {
   return (
     <div className="App">
-      <Background />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projets" element={<Projets />} />
@@ -22,6 +22,8 @@ export default function App() {
         <Route path="/formations" element={<Formations />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Background />
+      <Footer />
     </div>
   );
 }
