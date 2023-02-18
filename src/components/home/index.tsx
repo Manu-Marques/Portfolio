@@ -14,7 +14,6 @@ export default function Home() {
                 <div className="content">
                     <Link to="/experience" className='experience'>Expériences</Link>
                     <Link to="/competences" className='skills'>Compétences</Link>
-                    <Link to="/contact" className='contact'>Contact</Link>
                     <Link to="/projets" className='projets'>Projets</Link>
                     <Link to="/formations" className='formations'>Formations</Link>
                 </div>
