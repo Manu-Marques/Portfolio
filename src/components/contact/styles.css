@@ -1,5 +1,6 @@
 .contact {
     position: fixed;
+    z-index: 5;
     top: 2%;
     width: 100%;
     height: 100px;
@@ -9,21 +10,21 @@
     display: flex;
     flex-direction: column;
     color: #fff;
-    padding: 20px;
+    padding: 10px;
     font-size: 1em;
-    border: 1px solid #ffffff;
-    width: 2%;
+    width: 40px;
+    border: 2px solid #fff;
 }
 
 .contact-git,
 .contact-linkdin,
-.contact-email,
+.contact-envelope,
 .contact-phone {
     margin: 5px;
     color: #fff ;
 }
 
-.contact-email:hover,
+.contact-envelope:hover,
 .contact-phone:hover,
 .contact-git:hover,
 .contact-linkdin:hover {
@@ -31,9 +32,38 @@
     color: transparent;
     -webkit-text-stroke: 1px #fff;
     text-shadow: 1px -5px 2px rgb(110, 13, 139), 0 0 1em blue, 0 0 0.2em blue;
-    cursor: pointer;
 }
 
 .fa-2x {
-    color: white;
+    color: #fff;
 }
+
+.contact-number{
+    visibility: hidden;
+    position: absolute;
+    left: 63px;
+    top:30px;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.contact-email{
+    visibility: hidden;
+    position: absolute;
+    left: 63px;
+    bottom:25px;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    border: 2px solid #fff;
+
+}
+
+.contact-phone:hover ~ .contact-number,
+.contact-envelope:hover ~ .contact-email {
+    visibility: visible;
+}
+
+

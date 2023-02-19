@@ -13,6 +13,7 @@ import Background from "../background";
 export default function App() {
   return (
     <div className="App">
+      <Background />
       <Contact />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -21,7 +22,6 @@ export default function App() {
         <Route path="/experience" element={<Experience />} />
         <Route path="/formations" element={<Formations />} />
       </Routes>
-      <Background />
     </div>
   );
 }

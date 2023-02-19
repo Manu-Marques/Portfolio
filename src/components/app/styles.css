@@ -1,6 +1,8 @@
 .App {
     max-width: 100%;
     width: 100%;
+    z-index: 10;
+    position: relative;
 }
 
 
