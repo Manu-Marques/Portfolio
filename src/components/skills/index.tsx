@@ -61,7 +61,7 @@ export default function Skills() {
                             <h1 className="skills-subtitle">Langues</h1>
                             <ul className="skills-list">
                                 <li className="skills-item">- Français : Bilingue</li>
-                                <li className="skills-item">- Anglais : Intermédiaire</li>
+                                <li className="skills-item">- Anglais : Niveau B2</li>
                                 <li className="skills-item">- Portugais : Bilingue</li>
                             </ul>
                         </div>

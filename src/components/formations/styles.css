@@ -1,4 +1,11 @@
+.formations-main{
+    position: relative;
+    z-index: 5;
+}
+
 .formations-title {
+    position: relative;
+    z-index: 6;
     padding-bottom: 10px;
     text-align: center;
     font-size: 3em;
@@ -9,14 +16,15 @@
 
 .formations-btn-back {
     position: absolute;
+    z-index: 6;
     left: 20%;
-    top: 10%;
+    top: 7%;
     background-color: transparent;
     color: #fff;
     border: 2px solid #ffffff;
     cursor: pointer;
-    width: 5%;
-    height: 3%;
+    width: 100px;
+    height: 30px;
     font-size: 18px;
 }
 
@@ -29,6 +37,8 @@
 .formations-table {
     margin: 0 auto;
     width: 60%;
+    position: relative;
+    z-index: 5;
 }
 
 .formations-container {

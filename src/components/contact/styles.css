@@ -1,9 +1,13 @@
 .contact {
     position: fixed;
-    z-index: 5;
+    z-index: 6;
     top: 2%;
-    width: 100%;
+    width: 20%;
     height: 100px;
+}
+
+.contact-container{
+   width: 150px;
 }
 
 .contact-icons {
@@ -47,6 +51,8 @@
     font-size: 20px;
     color: #fff;
     border: 2px solid #fff;
+    text-decoration: underline;
+    text-underline-position: under;
 }
 
 .contact-email{
@@ -58,7 +64,8 @@
     font-size: 20px;
     color: #fff;
     border: 2px solid #fff;
-
+    text-decoration: underline;
+    text-underline-position: under;
 }
 
 .contact-phone:hover ~ .contact-number,
