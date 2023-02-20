@@ -1,4 +1,6 @@
 .skills-title {
+    position: relative;
+    z-index: 6;
     padding-bottom: 10px;
     text-align: center;
     font-size: 3em;
@@ -8,15 +10,16 @@
 }
 
 .skills-btn-back {
+    z-index: 6;
     position: absolute;
     left: 20%;
-    top: 10%;
+    top: 13%;
     background-color: transparent;
     color: #fff;
     border: 2px solid #ffffff;
     cursor: pointer;
-    width: 5%;
-    height: 3%;
+    width: 100px;
+    height: 30px;
     font-size: 18px;
 }
 
@@ -28,8 +31,10 @@
 
 
 .skills-table {
-    margin: 0 auto;
+    margin: 60px auto;
     width: 60%;
+    position: relative;
+    z-index: 5;
 }
 
 .skills-container {
