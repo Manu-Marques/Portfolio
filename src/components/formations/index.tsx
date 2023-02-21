@@ -12,6 +12,7 @@ export default function Formations() {
                     <div className="formations-top">
                         <div className="formations-dev">
                             <h1 className="formations-subtitle">Développeur Web FullStack Javascript</h1>
+                            <h2 className='formations-level'>(Niveau Bac +2)</h2>
                             <h1 className='formations-oclock-subtitle'>O'Clock - Paris</h1>
                             <ul className='formations-list'>
                                 <li className="formations-item">- 798 heures de formation</li>
@@ -30,6 +31,7 @@ export default function Formations() {
                     <div className="formations-bottom">
                         <div className="formations-bus">
                             <h1 className="formations-subtitle">Transports Voyageurs</h1>
+                            <h2 className='formations-level'>(Permis D)</h2>
                             <h1 className='formations-oclock-subtitle'>Couturier - Dreux</h1>
                             <ul className='formations-list'>
                                 <li className="formations-item">- Conduire et manoeuvrer en sécurité un véhicule</li>
@@ -43,7 +45,8 @@ export default function Formations() {
                         </div>
                         <div className="formations-commerce">
                             <h1 className="formations-subtitle">Employé de Commerce</h1>
-                            <h1 className='formations-oclock-subtitle'>André Chavanne - Suisse</h1>
+                            <h2 className='formations-level'>(Niveau Bac)</h2>
+                            <h1 className='formations-oclock-subtitle'>Lycée André Chavanne - Suisse</h1>
                             <ul className='formations-list'>
                                 <li className="formations-item">- Correspondance commerciale</li>
                                 <li className="formations-item">- Comptabilité</li>
