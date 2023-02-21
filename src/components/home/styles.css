@@ -1,13 +1,20 @@
-.home{
+.home {
     position: relative;
     z-index: 2;
 }
 
-.container {
+.home-container {
     height: 100vh;
 }
 
-.resume {
+.home-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.home-resume {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -21,7 +28,7 @@
     box-shadow: 0 0 192px 0 rgb(110, 13, 139);
 }
 
-.content {
+.home-content {
     position: absolute;
     left: 35%;
     top: 15%;
@@ -32,10 +39,10 @@
     box-shadow: 0 0 192px 0 #1f1ccd;
 }
 
-.experience,
-.skills,
-.projets,
-.formations {
+.home-experience,
+.home-skills,
+.home-projets,
+.home-formations {
     font-size: 4em;
     font-weight: 500;
     color: transparent;
@@ -44,16 +51,16 @@
     text-decoration: none;
 }
 
-.experience:hover,
-.skills:hover,
-.projets:hover,
-.formations:hover {
+.home-experience:hover,
+.home-skills:hover,
+.home-projets:hover,
+.home-formations:hover {
     color: #fff;
     text-shadow: 1px -5px 2px rgb(110, 13, 139), 0 0 1em blue, 0 0 0.2em blue;
     cursor: pointer;
 }
 
-.presentation {
+.home-presentation {
     color: #fff;
     text-align: center;
 }
@@ -67,7 +74,7 @@
     text-decoration: none;
 }
 
-.presentation-img {
+.home-img {
     width: 55%;
     height: 60%;
     object-fit: cover;
@@ -77,7 +84,7 @@
 }
 
 
-.experience {
+.home-experience {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,7 +101,7 @@
     border-right: transparent;
 }
 
-.projets {
+.home-projets {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,7 +117,7 @@
     margin-top: 0;
 }
 
-.formations {
+.home-formations {
     display: flex;
     justify-content: center;
     position: absolute;
@@ -126,7 +133,7 @@
     height: 60%;
 }
 
-.skills {
+.home-skills {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,17 +150,93 @@
     border-left: transparent;
 }
 
-@media screen and (max-width: 1560px) {
-    .presentation-img {
+@media screen and (max-width: 1665px) {
+    .home-img {
         border-radius: 50% 20% / 10% 40%;
-        width: 50%;
-        height: 50%;
+        width: 80%;
     }
 
-    .formations,
-    .skills,
-    .projets,
-    .experience {
+    .home-presentation {
+        font-size: 20px;
+    }
+
+    .home-formations,
+    .home-skills,
+    .home-projets,
+    .home-experience {
         font-size: 3em;
     }
-} 
+}
+
+@media screen and (max-width: 1230px) {
+
+    .home-formations,
+    .home-skills,
+    .home-projets,
+    .home-experience {
+        font-size: 2em;
+    }
+
+    .home-presentation {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 870px) {
+
+    .home-resume {
+        position: relative;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0;
+        width: 97%;
+        box-shadow: none;
+    }
+
+    .home-content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 97%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        box-shadow: none;
+    }
+
+    .home-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-formations,
+    .home-skills,
+    .home-projets,
+    .home-experience {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        border: none;
+        border: 2px solid #fff;
+        font-size: 2em;
+
+    }
+
+    .home-presentation,
+    .presentation-word{
+        font-size: 20px;
+    }
+
+    .home-container {
+        height: 100%;
+    }
+
+    .home-img {
+        width: 30%;
+        height: 40%;
+    }
+}
