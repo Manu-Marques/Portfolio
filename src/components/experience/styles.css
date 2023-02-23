@@ -115,3 +115,74 @@
     border-radius: 10px;
     padding: 2px 10px 2px 10px;
 }
+
+@media screen and (max-width: 320px){
+    .experience-table{
+        width: 100%;
+    }
+
+    .experience-container{
+        flex-direction: column;
+    }
+
+    .experience-left{
+        margin-bottom: 20px;
+    }
+
+    .experience-right{
+        margin-top: 20px;
+    }
+
+    .experience-oclock,
+    .experience-stavo,
+    .experience-hotel,
+    .experience-restaurant{
+        margin: 10px;
+    }
+
+    .experience-oclock-subtitle,
+    .experience-stavo-subtitle,
+    .experience-hotel-subtitle,
+    .experience-restaurant-subtitle{
+        font-size: 1.2em;
+    }
+
+    .experience-oclock-list,
+    .experience-stavo-list,
+    .experience-hotel-list,
+    .experience-restaurant-list{
+        padding-left: 0;
+    }
+
+    .experience-item{
+        font-size: 15px;
+        margin: 5px;
+    }
+
+    .experience-year{
+        font-size: 10px;
+        margin: 5px;
+        padding: 2px 5px 2px 5px;
+    }
+
+    .experience-btn-back {
+        left: 0;
+        top: 5%;
+        width: 80px;
+        height: 25px;
+        font-size: 15px;
+    }
+
+    .experience-title {
+        font-size: 2em;
+    }
+
+    .experience-subtitle {
+        font-size: 1.2em;
+    }
+
+    
+
+
+
+}

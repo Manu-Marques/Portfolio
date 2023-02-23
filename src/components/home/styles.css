@@ -9,7 +9,7 @@
 
 .home-row {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     height: 100%;
 }
@@ -18,22 +18,14 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    position: absolute;
+    position: relative;
     width: 23%;
-    left: 5%;
-    top: 15%;
-    bottom: 15%;
     margin: 48px;
     border: 4px solid #ffffff;
     box-shadow: 0 0 192px 0 rgb(110, 13, 139);
 }
 
 .home-content {
-    position: absolute;
-    left: 35%;
-    top: 15%;
-    right: 5%;
-    bottom: 15%;
     margin: 48px;
     border: 2px solid #ffffff;
     box-shadow: 0 0 192px 0 #1f1ccd;
@@ -88,66 +80,36 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    right: auto;
-    bottom: auto;
-    z-index: 1;
-    width: 59.5%;
-    height: 39%;
-    margin-top: 0;
+    width: 100%;
+    height:100%;
     border: 2px solid #ffffff;
-    border-right: transparent;
 }
 
 .home-projets {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    left: auto;
-    top: 0px;
-    right: 0px;
-    bottom: auto;
-    z-index: 1;
-    width: 40%;
-    height: 58.9%;
+    width: 100%;
+    height: 100%;
     border: 2px solid #ffffff;
-    margin-top: 0;
 }
 
 .home-formations {
     display: flex;
     justify-content: center;
-    position: absolute;
-    left: 0px;
-    top: auto;
-    right: auto;
-    bottom: 0px;
-    z-index: 1;
     align-items: center;
     border: 2px solid #ffffff;
-    margin-bottom: 0;
-    width: 40%;
-    height: 60%;
+    width: 100%;
+    height: 100%;
 }
 
 .home-skills {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    left: auto;
-    top: auto;
-    right: 0px;
-    bottom: 0px;
-    z-index: 1;
-    width: 59.5%;
-    height: 40%;
-    margin-bottom: 0;
+    width: 100%;
+    height: 100%;
     border: 2px solid #ffffff;
-    border-left: transparent;
 }
 
 @media screen and (max-width: 1668px) {
@@ -205,7 +167,7 @@
         top: 0;
         right: 0;
         bottom: 0;
-        margin: 20px;
+        margin: 30px;
         box-shadow: none;
     }
 
@@ -221,14 +183,14 @@
         position: relative;
         width: 100%;
         height: 100%;
-        border: 2px solid #fff;
-        font-size: 25px;
-
+        border: none;
+        text-decoration: underline;
+        font-weight: normal;
     }
 
     .home-presentation,
     .presentation-word{
-        font-size: 20px;
+        font-size: 30px;
         margin: 5px;
     }
 
@@ -239,5 +201,29 @@
     .home-img {
         width: 30%;
         height: 40%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .home-presentation,
+    .presentation-word {
+        font-size: 17px;
+    }
+
+    .home-formations,
+    .home-skills,
+    .home-projets,
+    .home-experience {
+        font-size: 20px;
+    }
+
+    .home-img {
+        width: 30%;
+        height: 50%;
+        margin: 10px;
+    }
+
+    .home-content {
+        margin: 10px;
     }
 }

@@ -1,5 +1,5 @@
 .video {
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100%;
     top: 0;
@@ -8,22 +8,37 @@
     z-index: 1;
 }
 
-/* @media screen and (max-width: 1914px) {
-    .video {
-      width: 100%;
-      height: 950px;
-    }
-} */
-/* 
-  @media (max-aspect-ratio: 16/9) {
-    .video {
-      height: 1100px;
-    }
-  } */
+.image{
+  display: none;
+}
+
 
   @media screen and (max-width: 870px) {
     .video {
       width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 481px) {
+    .video {
+      display: none;
+    }
+
+    .image{
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      object-fit: cover;
+      z-index: 1;
+    }
+  }
+
+  @media screen and (max-width: 481px) {
+    .image{
+      position: fixed;
     }
   }
 
