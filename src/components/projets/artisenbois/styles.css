@@ -10,6 +10,11 @@
     justify-content: center;
 }
 
+.artisenbois-img {
+    width: 100%;
+    height: 100%;
+}
+
 .artisenbois-info {
     width: 50%;
     height: 100%;
@@ -69,3 +74,40 @@
     -webkit-text-stroke: 1px #fff;
     background-color: transparent;
 }
+
+@media screen and (max-width: 960px) {
+    
+    .artisenbois{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .artisenbois-title {
+        text-align: center;
+    }
+
+    .artisenbois-container {
+        display: block;
+    }
+
+    .artisenbois-info {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .artisenbois-container-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .artisenbois-img {
+        width: 50%;
+        height: 50%;
+    }
+
+    .artisenbois-info{
+        margin-top: 10px;
+    }
+
+}
+    

@@ -6,7 +6,10 @@ export default function PokemonFinder() {
         <div className="pokemon">
             <h1 className='pokemon-title'>Pokemon Finder</h1>
             <div className="pokemon-container">
-                <img className='pokemon-img' src={logo}></img>
+                <div className="pokemon-container-img">
+                    <img className='pokemon-img' src={logo}>
+                    </img>
+                </div>
                 <div className="pokemon-info">
                     <h2 className="pokemon-subtitle">Résumé du projet</h2>
                     <p className="pokemon-text">Ce site web a été réalisé dans le cadre d'un projet perso. Le but était de créer un site avec la consommation et manipulation d'une API disponible en ligne, ainsi que des tests unitaires pour les functions.</p>

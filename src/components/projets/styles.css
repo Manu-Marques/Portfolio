@@ -18,7 +18,7 @@
     flex-direction: column;
     align-items: center;
     width: 60%;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 .projets-btn{
@@ -48,6 +48,7 @@
     width: 100px;
     height: 30px;
     font-size: 18px;
+    top: 10px;
 }
 
 .projets-btn-back:hover {
@@ -69,4 +70,51 @@
     box-shadow: 0 2vw 10vw -30px #1f1ccd;
     position: relative;
     z-index: 6;
+}
+
+@media screen and ( max-width: 1260px){
+    
+    .projets-btn-back {
+        left: 5%;
+    }
+
+    .projets-table {
+        width: 90%;
+    }
+    
+}
+
+@media screen and ( max-width: 960px){
+    
+    .projets-title {
+        font-size: 2.5em;
+    }
+
+    .projets-btn-back {
+        top: -20px;
+    }
+    
+}
+
+@media screen and ( max-width: 520px){
+    
+    .projets-title {
+        font-size: 2em;
+    }
+
+    .btn {
+        padding: 8px 10px;
+        font-size: 0.8em;
+    }
+    
+}
+
+@media screen and ( max-width: 320px){
+    
+
+    .btn {
+        padding: 6px 8px;
+        font-size: 0.8em;
+    }
+    
 }

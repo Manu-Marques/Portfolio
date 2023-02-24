@@ -6,7 +6,10 @@ export default function Todolist() {
         <div className="todolist">
             <h1 className='todolist-title'>ToDoList</h1>
             <div className="todolist-container">
-                <img className='todolist-img' src={logo}></img>
+                <div className="todolist-container-img">
+                    <img className='todolist-img' src={logo}>
+                    </img>
+                </div>
                 <div className="todolist-info">
                     <h2 className="todolist-subtitle">Résumé du projet</h2>
                     <p className="todolist-text">Ce site web a été réalisé dans le cadre d'un projet perso. Le but était de créer un site qui mets en avant les opérations appelées CRUD (Create/Read/Update et Delete) .</p>
