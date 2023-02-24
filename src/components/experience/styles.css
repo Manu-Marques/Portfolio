@@ -116,7 +116,36 @@
     padding: 2px 10px 2px 10px;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 1220px) {
+
+    .experience-table{
+        width: 80%;
+    }
+
+    .experience-btn-back {
+        left: 10%;
+    }
+    
+}
+
+@media screen and (max-width: 910px) {
+
+    .experience-table{
+        width: 90%;
+    }
+
+    .experience-btn-back {
+        left: 5%;
+    }
+
+    .experience-item{
+        font-size: 15px;
+        margin: 8px;
+    }
+    
+}
+
+@media screen and (max-width: 665px){
     .experience-table{
         width: 100%;
     }
@@ -155,7 +184,7 @@
     }
 
     .experience-item{
-        font-size: 15px;
+        font-size: 20px;
         margin: 5px;
     }
 
