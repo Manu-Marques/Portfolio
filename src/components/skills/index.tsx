@@ -44,17 +44,19 @@ export default function Skills() {
                                     <li className="skills-item">- Tailwind</li>
                                     <li className="skills-item">- Bootstrap</li>
                                 </ul>
-                                <ul className="skills-back">
-                                    <h1 className="skills-back-title">Back</h1>
-                                    <li className="skills-item">- Node.js</li>
-                                    <li className="skills-item">- PostgreSQL</li>
-                                </ul>
-                                <ul className="skills-others">
-                                    <h1 className="skills-others-title">Autres</h1>
-                                    <li className="skills-item">- Git/GitHub</li>
-                                    <li className="skills-item">- Test unitaire (Jest)</li>
-                                    <li className="skills-item">- Figma</li>
-                                </ul>
+                                <div className="skills-both">
+                                    <ul className="skills-back">
+                                        <h1 className="skills-back-title">Back</h1>
+                                        <li className="skills-item">- Node.js</li>
+                                        <li className="skills-item">- PostgreSQL</li>
+                                    </ul>
+                                    <ul className="skills-others">
+                                        <h1 className="skills-others-title">Autres</h1>
+                                        <li className="skills-item">- Git/GitHub</li>
+                                        <li className="skills-item">- Test unitaire (Jest)</li>
+                                        <li className="skills-item">- Figma</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                         <div className="skills-languages">
