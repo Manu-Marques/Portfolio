@@ -186,16 +186,13 @@
     }
 
     .skills-title {
-        font-size: 2.5em;
+        font-size: 2em;
     }
 }
 
 @media screen and (max-width: 700px) {
     .skills-btn-back {
-        top: 6%;
-        width: 80px;
-        height: 25px;
-        font-size: 15px;
+        top: 5%;
     }
 
     .skills-container {
@@ -205,11 +202,13 @@
 }
 
 @media screen and (max-width: 460px) {
+
     .skills-btn-back {
-        top: 5%;
+        top: 6%;
         width: 80px;
         height: 25px;
         font-size: 15px;
+
     }
     .skills-title {
         font-size: 2em;
