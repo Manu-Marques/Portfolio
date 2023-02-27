@@ -21,7 +21,7 @@ export default function App() {
         <Route path="/formations" element={<Formations />} />
       </Routes>
       <Background />
-      <Contact />
+       <Contact /> 
     </div>
   );
 }

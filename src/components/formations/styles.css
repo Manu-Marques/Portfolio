@@ -224,6 +224,8 @@
     .formations-btn-back {
         left: 0;
         top: 80px;
+        width: 80px;
+        height: 25px;
     }
 
     .formations-title {
