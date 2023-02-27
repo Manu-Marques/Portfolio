@@ -182,7 +182,7 @@
 
     .skills-btn-back {
         left: 0;
-        top: 8%;
+        top: 80px;
     }
 
     .skills-title {
@@ -199,12 +199,16 @@
         flex-direction: column;
     }
 
+    .skills-subtitle {
+        font-size: 1.5em;
+    }
+
 }
 
 @media screen and (max-width: 460px) {
 
     .skills-btn-back {
-        top: 6%;
+        top: 90px;
         width: 80px;
         height: 25px;
         font-size: 15px;
@@ -214,8 +218,6 @@
         font-size: 2em;
     }
 
-    .skills-subtitle {
-        font-size: 1.5em;
-    }
+
 }
     
