@@ -149,7 +149,6 @@
     }
 
     .formations-item {
-        font-size: 18px;
         margin: 5px;
     }
 
@@ -174,7 +173,7 @@
 
     .formations-btn-back {
         left: 10%;
-        top: 11%;
+        top: 90px;
     }
 
     .formations-title {
@@ -191,7 +190,7 @@
 
     .formations-btn-back {
         left: 5%;
-        top: 13%;
+        top: 80px;
     }
 
     .formations-title {
@@ -199,11 +198,46 @@
     }
 
     .formations-subtitle {
-        font-size: 1em;
+        font-size: 1.5em;
     }
 
     .formations-level {
-        font-size: 12px;
+        font-size: 15px;
+    }
+
+    .formations-item {
+        margin: 5px;
+    }
+
+    .formations-year {
+        font-size: 15px;
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 675px) {
+
+    .formations-table {
+        width: 100%;
+    }
+
+    .formations-btn-back {
+        left: 0;
+        top: 80px;
+        width: 80px;
+        height: 25px;
+    }
+
+    .formations-title {
+        font-size: 2em;
+    }
+
+    .formations-subtitle {
+        font-size: 1.5em;
+    }
+
+    .formations-level {
+        font-size: 15px;
     }
 
     .formations-item {
@@ -215,10 +249,7 @@
         margin: 5px;
     }
 
-    .formations-oclock-subtitle,
-    .formations-bus-subtitle,
-    .formations-commerce-subtitle {
-        font-size: 1em;
+    .formations-bottom {
+        flex-direction: column;
     }
-
 }

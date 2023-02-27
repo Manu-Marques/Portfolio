@@ -19,7 +19,7 @@
     position: absolute;
     z-index: 2;
     left: 20%;
-    top: 9%;
+    top: 85px;
     background-color: transparent;
     color: #fff;
     border: 2px solid #ffffff;
@@ -196,7 +196,7 @@
 
     .experience-btn-back {
         left: 0;
-        top: 5%;
+        top: 70px;
         width: 80px;
         height: 25px;
         font-size: 15px;
