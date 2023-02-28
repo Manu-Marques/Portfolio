@@ -1,11 +1,14 @@
 import './styles.css';
+import { Link } from 'react-router-dom';
 
 export default function Formations() {
     return (
         <div className="formations-main">
             <h1 className='formations-title'>Formations</h1>
             <div className="formations-btn">
+                   <Link to="/">
                 <button className="formations-btn-back">Retour</button>
+                </Link>
             </div>
             <div className="formations-table">
                 <div className="formations-container">

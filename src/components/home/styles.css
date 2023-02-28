@@ -169,7 +169,7 @@
     .home-row {
         justify-content: space-around;
         flex-direction: column;
-        height: 1060px;
+        height: 800px;
     }
 
     .home-menu {

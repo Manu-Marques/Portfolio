@@ -1,11 +1,14 @@
 import "./styles.css";
+import { Link } from "react-router-dom";
 
 export default function Skills() {
     return (
         <div className="skills-main">
             <h1 className="skills-title">Compétences</h1>
             <div className="skills-btn">
+            <Link to="/">
             <button className="skills-btn-back">Retour</button>
+            </Link>
         </div>
             <div className="skills-table">
                 <div className="skills-container">
