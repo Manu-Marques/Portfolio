@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './styles.css';
 
 export default function Experience() {
@@ -5,7 +6,9 @@ export default function Experience() {
         <div className="experience-main">
             <h1 className='experience-title'>Expériences</h1>
             <div className="experience-btn">
+            <Link to="/">
                 <button className="experience-btn-back">Retour</button>
+            </Link>
             </div>
             <div className="experience-table">
                 <div className="experience-container">

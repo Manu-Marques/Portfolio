@@ -8,11 +8,14 @@ import Experience from "../experience";
 import Formations from "../formations";
 import Contact from "../contact";
 import Background from "../background";
+import Footer from "../footer";
+import ScrollToTop from "../scrollToTop/scrollTotop";
 
 
 export default function App() {
   return (
     <div className="App">
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projets" element={<Projets />} />
@@ -22,6 +25,7 @@ export default function App() {
       </Routes>
       <Background />
        <Contact /> 
+      <Footer />
     </div>
   );
 }
