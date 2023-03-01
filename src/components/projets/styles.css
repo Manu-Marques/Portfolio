@@ -57,7 +57,7 @@
     cursor: pointer;
 }
 
-.btn:active {
+.btn:hover {
     background-color: rgb(255, 255, 255);
     color: #000000;
     cursor: pointer;
