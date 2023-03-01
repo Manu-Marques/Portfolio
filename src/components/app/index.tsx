@@ -10,6 +10,7 @@ import Contact from "../contact";
 import Background from "../background";
 import Footer from "../footer";
 import ScrollToTop from "../scrollToTop/scrollTotop";
+import Arrow from "../arrow";
 
 
 export default function App() {
@@ -25,6 +26,7 @@ export default function App() {
       </Routes>
       <Background />
        <Contact /> 
+      <Arrow />
       <Footer />
     </div>
   );
