@@ -35,9 +35,6 @@
     .footer-title {
         font-size: 11px;
     }
-}
-
-@media screen and (max-width: 620px) {
     .footer-logo {
         width: 30px;
         height: 30px;
