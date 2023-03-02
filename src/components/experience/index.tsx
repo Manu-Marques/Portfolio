@@ -19,7 +19,7 @@ export default function Experience() {
                             <ul className='experience-oclock-list'>
                                 <li className='experience-item'>- Développement en Front et Back</li>
                                 <li className='experience-item'>- Utilisation de la méthode Scrum</li>
-                                <li className='experience-item'>- Rédaction des documents personnelles</li>
+                                <li className='experience-item'>- Rédaction des documents personnels</li>
                                 <li className='experience-item'>(Journal de bord, document de veille)</li>
                                 <li className='experience-item'>- Utilisation de la méthode Kanban </li>
                             </ul>
