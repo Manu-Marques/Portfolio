@@ -10,7 +10,7 @@ export default function Home() {
                     <div className='home-resume'>
                         <div className="home-me">
                             <h2 className='home-presentation'>Bonjour, je m'appelle <span className="presentation-word">Emanuel</span></h2>
-                            <h2 className='home-presentation'>Je suis <span className="presentation-word">Développeur Front-End</span></h2>
+                            <h2 className='home-presentation'>Je suis <span className="presentation-word">Développeur Web</span></h2>
                         </div>
                         <img className='home-img' src={photo} alt="moi" />
                     </div>
