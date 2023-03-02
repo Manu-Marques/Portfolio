@@ -7,7 +7,7 @@ export default function Todolist() {
             <h1 className='todolist-title'>ToDoList</h1>
             <div className="todolist-container">
                 <div className="todolist-container-img">
-                    <img className='todolist-img' src={logo}>
+                    <img className='todolist-img' src={logo} alt="logo">
                     </img>
                 </div>
                 <div className="todolist-info">

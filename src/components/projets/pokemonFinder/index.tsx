@@ -7,7 +7,7 @@ export default function PokemonFinder() {
             <h1 className='pokemon-title'>Pokemon Finder</h1>
             <div className="pokemon-container">
                 <div className="pokemon-container-img">
-                    <img className='pokemon-img' src={logo}>
+                    <img className='pokemon-img' src={logo} alt="logo">
                     </img>
                 </div>
                 <div className="pokemon-info">
