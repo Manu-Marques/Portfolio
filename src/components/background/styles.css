@@ -21,10 +21,9 @@
 
   @media screen and (max-width: 481px) {
     .video {
-      display: none;
     }
 
-    .image{
+    /* .image{
       display: block;
       position: absolute;
       width: 100%;
@@ -39,6 +38,6 @@
   @media screen and (max-width: 481px) {
     .image{
       position: fixed;
-    }
+    } */
   }
 
