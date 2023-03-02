@@ -7,7 +7,7 @@ export default function Artisenbois() {
             <h1 className='artisenbois-title'>Artisenbois</h1>
             <div className="artisenbois-container">
                 <div className="artisenbois-container-img">
-                    <img className='artisenbois-img' src={logo}>
+                    <img className='artisenbois-img' src={logo} alt="logo">
                     </img>
                 </div>
                 <div className="artisenbois-info">
