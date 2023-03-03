@@ -27,7 +27,7 @@ export default function Skills() {
                             <h1 className="skills-subtitle">Savoir être</h1>
                             <ul className="skills-list">
                                 <li className="skills-item">- Autonome</li>
-                                <li className="skills-item">- Travail en d'équipe</li>
+                                <li className="skills-item">- Travail en équipe</li>
                                 <li className="skills-item">- Capacité d'adaptation</li>
                                 <li className="skills-item">- Sens de communication</li>
                                 <li className="skills-item">- Curiosité</li>
