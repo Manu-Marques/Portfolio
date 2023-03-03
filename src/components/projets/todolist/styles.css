@@ -24,6 +24,7 @@
 }
 
 .todolist-text {
+    font-size: 22px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -38,7 +39,7 @@
 
 .todolist-item {
     list-style: none;
-    font-size: 1rem;
+    font-size: 22px;
 }
 
 .todolist-word {

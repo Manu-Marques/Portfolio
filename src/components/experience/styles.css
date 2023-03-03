@@ -35,10 +35,11 @@
 }
 
 .experience-table {
-    margin: 50px auto;
+    margin: 0 auto;
     width: 60%;
     position: relative;
     z-index: 1;
+    padding-top: 20px;
 }
 
 .experience-container {
@@ -61,7 +62,7 @@
 }
 
 .experience-subtitle {
-    font-size: 1.5em;
+    font-size: 25px;
     text-align: center;
     color: #ffffff;
     -webkit-text-stroke: 1px #fff;
@@ -74,14 +75,14 @@
 .experience-hotel,
 .experience-restaurant{
     border: 2px solid #ffffff;
-    margin: 20px;
+    margin: 15px;
 }
 
 .experience-oclock-subtitle,
 .experience-stavo-subtitle,
 .experience-hotel-subtitle,
 .experience-restaurant-subtitle{
-    font-size: 1.5em;
+    font-size: 22px;
     text-align: center;
     text-decoration: underline;
 }
@@ -95,7 +96,7 @@
 
 .experience-item{
     font-size: 22px;
-    margin: 10px;
+    margin: 5px;
     list-style: none;
 }
 
