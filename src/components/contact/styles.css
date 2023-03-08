@@ -1,7 +1,7 @@
 .contact {
     z-index: 6;
     margin-top: 15px;
-    position: fixed;
+    position: relative;
 }
 
 .contact-container{

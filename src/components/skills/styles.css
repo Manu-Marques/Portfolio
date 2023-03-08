@@ -1,6 +1,24 @@
 .skills-main {
     position: relative;
     z-index: 5;
+    height: 100vh;
+    padding-bottom: 200px;
+    visibility: hidden;
+}
+
+.active {
+    visibility: visible;
+    animation-duration: 3s;
+    animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .skills-title {
@@ -13,27 +31,6 @@
     -webkit-text-stroke: 1px #fff;
     text-shadow: 1px -5px 2px rgb(110, 13, 139), 0 0 1em blue, 0 0 0.2em blue;
 }
-
-.skills-btn-back {
-    z-index: 6;
-    position: absolute;
-    left: 20%;
-    top: 115px;
-    background-color: transparent;
-    color: #fff;
-    border: 2px solid #ffffff;
-    cursor: pointer;
-    width: 100px;
-    height: 30px;
-    font-size: 18px;
-}
-
-.skills-btn-back:hover {
-    color: black;
-    background-color: white;
-    cursor: pointer;
-}
-
 
 .skills-table {
     margin: 60px auto;
