@@ -1,15 +1,26 @@
 import { Link } from 'react-router-dom';
 import './styles.css';
+import { useState, useEffect, useRef } from 'react';
 
 export default function Experience() {
+
+    const myRef = useRef(null);
+    const [isVisible, setVisible] = useState(false);
+
+    useEffect(() => {
+         const observer = new IntersectionObserver(entries => {
+            const entry = entries[0];
+            setVisible(entry.isIntersecting);
+        });
+        if (myRef.current) {
+            observer.observe(myRef.current);
+        }
+    }, []);
+
+
     return (
-        <div className="experience-main">
+        <div ref={myRef} className={`experience-main ${ isVisible ? 'active' : '' }`} id="experience">
             <h1 className='experience-title'>Expériences</h1>
-            <div className="experience-btn">
-            <Link to="/">
-                <button className="experience-btn-back">Retour</button>
-            </Link>
-            </div>
             <div className="experience-table">
                 <div className="experience-container">
                     <div className="experience-left">

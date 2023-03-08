@@ -1,15 +1,26 @@
 import "./styles.css";
-import { Link } from "react-router-dom";
+import { useState, useEffect, useRef } from "react";
 
 export default function Skills() {
+
+    const myRef = useRef(null);
+    const [isVisible, setVisible] = useState(false);
+    console.log('isVisible', isVisible);
+    
+
+    useEffect(() => {
+       const observer = new IntersectionObserver(entries => {
+        const entry = entries[0];
+        setVisible(entry.isIntersecting);
+         });
+        if (myRef.current) {
+            observer.observe(myRef.current);
+        }
+    }, []);
+
     return (
-        <div className="skills-main">
+        <div ref={myRef}  className={`skills-main ${ isVisible ? 'active' : '' }`} id="skills">
             <h1 className="skills-title">Compétences</h1>
-            <div className="skills-btn">
-            <Link to="/">
-            <button className="skills-btn-back">Retour</button>
-            </Link>
-        </div>
             <div className="skills-table">
                 <div className="skills-container">
                     <div className="skills-left">

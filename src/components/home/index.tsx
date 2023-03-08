@@ -1,8 +1,17 @@
 import './styles.css';
-import { Link } from 'react-router-dom';
 import photo from '../../../src/assets/photo.jpg';
+import { useEffect, useState } from 'react';
+import Experience from '../experience';
+import Skills from '../skills';
+import Projets from '../projets';
+import Formations from '../formations';
 
 export default function Home() {
+
+
+
+
+
     return (
         <div className="home">
             <div className='home-container'>
@@ -16,12 +25,12 @@ export default function Home() {
                     </div>
                     <div className="home-menu">
                         <div className="home-left">
-                            <Link to="/experience" className='home-experience-title'>Expériences</Link>
-                            <Link to="/competences" className='home-skills-title'>Compétences</Link>
+                            <div className='home-experience-title'>Expériences</div>
+                            <div className='home-skills-title'>Compétences</div>
                         </div>
                         <div className="home-right">
-                            <Link to="/projets" className='home-projets-title'>Projets</Link>
-                            <Link to="/formations" className='home-formations-title'>Formations</Link>
+                            <div className='home-projets-title'>Projets</div>
+                            <div className='home-formations-title'>Formations</div>
                         </div>
                     </div>
                 </div>

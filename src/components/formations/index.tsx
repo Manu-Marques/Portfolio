@@ -1,15 +1,26 @@
 import './styles.css';
 import { Link } from 'react-router-dom';
+import { useState, useEffect, useRef } from 'react';
+
 
 export default function Formations() {
+
+    const myRef = useRef(null);
+    const [isVisible, setVisible] = useState(false);
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(entries => {
+            const entry = entries[0];
+            setVisible(entry.isIntersecting);
+        });
+        if (myRef.current) {
+            observer.observe(myRef.current);
+        }
+    }, []);
+
     return (
-        <div className="formations-main">
+        <div ref={myRef} className={`formations-main ${ isVisible ? 'active' : '' }`} id="formations">
             <h1 className='formations-title'>Formations</h1>
-            <div className="formations-btn">
-                   <Link to="/">
-                <button className="formations-btn-back">Retour</button>
-                </Link>
-            </div>
             <div className="formations-table">
                 <div className="formations-container">
                     <div className="formations-top">
