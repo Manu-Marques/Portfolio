@@ -13,7 +13,6 @@ export default function Projets() {
 
     const myRef = useRef(null);
     const [isVisible, setVisible] = useState(false);
-    console.log('isVisible', isVisible);
 
 
     useEffect(() => {

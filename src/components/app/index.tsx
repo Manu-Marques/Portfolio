@@ -1,5 +1,4 @@
 import "./styles.css";
-import Home from '../home';
 import Projets from "../projets";
 import Skills from "../skills";
 import Experience from "../experience";
@@ -16,10 +15,8 @@ import { HashLink as Link } from "react-router-hash-link";
 
 
 export default function App() {
-
   return (
     <div className="App">
-      <Contact />
       <div className="home">
         <div className='home-container'>
           <div className="home-row">
@@ -32,18 +29,18 @@ export default function App() {
             </div>
             <div className="home-menu">
               <div className="home-left">
-                <Link className='home-experience-title' to='#experience' smooth>
+                <Link className='home-experience' to='#experience' smooth>
                   <div >Expériences</div>
                 </Link>
-                <Link className='home-skills-title' to="#skills" smooth>
+                <Link className='home-skills' to="#skills" smooth>
                   <div >Compétences</div>
                 </Link>
               </div>
               <div className="home-right">
-                <Link className='home-projets-title' to="#projets" smooth>
+                <Link className='home-projets' to="#projets" smooth>
                   <div>Projets</div>
                 </Link>
-                <Link className='home-formations-title' to="#formations" smooth>
+                <Link className='home-formations' to="#formations" smooth>
                   <div>Formations</div>
                 </Link>
               </div>
@@ -58,6 +55,7 @@ export default function App() {
       <Formations />
       <Background />
       <Arrow />
+      <Contact />
       <Footer />
     </div>
   );

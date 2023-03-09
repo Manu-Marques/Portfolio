@@ -1,13 +1,10 @@
 .formations-main{
     position: relative;
     z-index: 5;
-    height: 100vh;
     padding-bottom: 20px;
-    visibility: hidden;
 }
 
 .active {
-    visibility: visible;
     animation-duration: 3s;
     animation-name: fadeIn;
 }
@@ -57,7 +54,7 @@
 }
 
 .formations-subtitle {
-    font-size: 1.5em;
+    font-size: 30px;
     text-align: center;
     color: #ffffff;
     -webkit-text-stroke: 1px #fff;
@@ -126,10 +123,6 @@
 
 @media screen and (max-width: 1610px) {
 
-    .formations-btn-back {
-        top: 110px;
-    }
-
     .formations-table {
         margin: 50px auto;
     }
@@ -171,11 +164,6 @@
         font-size: 1.2em;
     }
 
-    .formations-btn-back {
-        left: 10%;
-        top: 90px;
-    }
-
     .formations-title {
         font-size: 2.5em;
     }
@@ -186,15 +174,6 @@
 
     .formations-table {
         width: 90%;
-    }
-
-    .formations-btn-back {
-        left: 5%;
-        top: 80px;
-    }
-
-    .formations-title {
-        font-size: 2em;
     }
 
     .formations-subtitle {
@@ -219,34 +198,6 @@
 
     .formations-table {
         width: 100%;
-    }
-
-    .formations-btn-back {
-        left: 0;
-        top: 80px;
-        width: 80px;
-        height: 25px;
-    }
-
-    .formations-title {
-        font-size: 2em;
-    }
-
-    .formations-subtitle {
-        font-size: 1.5em;
-    }
-
-    .formations-level {
-        font-size: 15px;
-    }
-
-    .formations-item {
-        margin: 5px;
-    }
-
-    .formations-year {
-        font-size: 15px;
-        margin: 5px;
     }
 
     .formations-bottom {

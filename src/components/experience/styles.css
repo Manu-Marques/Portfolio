@@ -1,13 +1,10 @@
 .experience-main{
     position: relative;
     z-index: 5;
-    height: 100vh;
     padding-bottom: 200px;
-    visibility: hidden;
 }
 
 .active {
-    visibility: visible;
     animation-duration: 3s;
     animation-name: fadeIn;
 }
@@ -62,7 +59,7 @@
 }
 
 .experience-subtitle {
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     color: #ffffff;
     -webkit-text-stroke: 1px #fff;
@@ -121,10 +118,6 @@
     .experience-table{
         width: 80%;
     }
-
-    .experience-btn-back {
-        left: 10%;
-    }
     
 }
 
@@ -132,10 +125,6 @@
 
     .experience-table{
         width: 90%;
-    }
-
-    .experience-btn-back {
-        left: 5%;
     }
 
     .experience-item{
@@ -194,17 +183,6 @@
         padding: 2px 5px 2px 5px;
     }
 
-    .experience-btn-back {
-        left: 0;
-        top: 70px;
-        width: 80px;
-        height: 25px;
-        font-size: 15px;
-    }
-
-    .experience-title {
-        font-size: 2em;
-    }
 
     .experience-subtitle {
         font-size: 1.5em;
