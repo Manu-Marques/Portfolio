@@ -78,6 +78,15 @@
 
 @media screen and (max-width: 960px) {
     
+    .todolist-item {
+        list-style: none;
+        font-size: 20px;
+    }
+
+    .todolist-text {
+        font-size: 20px;
+    }
+
     .todolist{
         display: flex;
         flex-direction: column;
