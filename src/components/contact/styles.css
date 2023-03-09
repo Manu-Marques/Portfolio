@@ -2,6 +2,8 @@
     z-index: 6;
     margin-top: 15px;
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .contact-container{

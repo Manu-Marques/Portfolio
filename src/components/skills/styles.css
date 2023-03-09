@@ -1,13 +1,10 @@
 .skills-main {
     position: relative;
     z-index: 5;
-    height: 100vh;
     padding-bottom: 200px;
-    visibility: hidden;
 }
 
 .active {
-    visibility: visible;
     animation-duration: 3s;
     animation-name: fadeIn;
 }
@@ -20,6 +17,7 @@
         opacity: 1;
     }
 }
+
 
 .skills-title {
     position: relative;
@@ -34,7 +32,7 @@
 
 .skills-table {
     margin: 60px auto;
-    width: 60%;
+    width: 80%;
     position: relative;
     z-index: 5;
 }
@@ -56,6 +54,7 @@
 .skills-right{
     display: flex;
     flex-direction: column;
+    width: 50%;
 }
 
 .skills-expertise,
@@ -74,7 +73,6 @@
 .skills-stack-list{
     display: flex;
     justify-content: space-around;
-    margin-top: -10px;
 }
 
 .skills-front,
@@ -86,7 +84,7 @@
 }
 
 .skills-subtitle {
-    font-size: 1.5em;
+    font-size: 30px;
     text-align: center;
     color: #ffffff;
     -webkit-text-stroke: 1px #fff;
@@ -103,7 +101,7 @@
 }
 
 .skills-item {
-    font-size: 20px;
+    font-size: 22px;
     margin: 10px;
     list-style-type: none;
 }
@@ -113,28 +111,26 @@
     margin-top: 0;
 }
 
-@media screen and (max-width: 1550px) {
+.skills-item-icon {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+@media screen and (max-width: 1345px) {
     .skills-table {
-        width: 80%;
-    }
-    .skills-btn-back {
-        left: 10%;
+        width: 90%;
     }
     
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1130px) {
     .skills-table {
-        width: 90%;
+        width: 70%;
     }
-    .skills-btn-back {
-        left: 5%;
-    }
-}
 
-@media screen and (max-width: 1025px) {
-    .skills-table {
-        width: 100%;
+    .skills-container {
+        flex-direction: column;
     }
 
     .skills-left,
@@ -166,7 +162,6 @@
 
     .skills-stack-list{
         display: flex;
-        flex-direction: column;
         justify-content: space-around;
         margin-top: -10px;
     }
@@ -174,22 +169,15 @@
     .skills-front,
     .skills-back,
     .skills-others {
-        margin: 5px;
+        margin: 20px;
     }
 
-    .skills-btn-back {
-        left: 0;
-        top: 80px;
-    }
-
-    .skills-title {
-        font-size: 2em;
-    }
 }
 
 @media screen and (max-width: 700px) {
-    .skills-btn-back {
-        top: 5%;
+
+    .skills-table {
+        width: 100%;
     }
 
     .skills-container {
@@ -204,17 +192,13 @@
 
 @media screen and (max-width: 460px) {
 
-    .skills-btn-back {
-        top: 90px;
-        width: 80px;
-        height: 25px;
-        font-size: 15px;
-
-    }
-    .skills-title {
-        font-size: 2em;
+    .skills-stack-list{
+        flex-direction: column;
     }
 
+    .skills-item-icon{
+        justify-content: center;
+    }
 
 }
     
