@@ -24,7 +24,7 @@
 }
 
 .pokemon-text {
-    font-size: 20px;
+    font-size: 22px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -39,7 +39,7 @@
 
 .pokemon-item {
     list-style: none;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .pokemon-word {
@@ -77,8 +77,16 @@
 }
 
 @media screen and (max-width: 960px) {
-    
-    .pokemon{
+
+    .pokemon-item {
+        font-size: 20px;
+    }
+
+    .pokemon-text {
+        font-size: 20px;
+    }
+
+    .pokemon {
         display: flex;
         flex-direction: column;
     }
@@ -106,7 +114,7 @@
         height: 50%;
     }
 
-    .pokemon-info{
+    .pokemon-info {
         margin-top: 10px;
     }
 

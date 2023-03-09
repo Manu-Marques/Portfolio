@@ -87,6 +87,14 @@
         flex-direction: column;
     }
 
+    .artisenbois-item {
+        font-size: 20px;
+    }
+
+    .artisenbois-text {
+        font-size: 20px;
+    }
+
     .artisenbois-title {
         text-align: center;
     }
