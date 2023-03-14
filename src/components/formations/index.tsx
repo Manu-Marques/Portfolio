@@ -1,9 +1,58 @@
 import './styles.css';
-import { Link } from 'react-router-dom';
 import { useState, useEffect, useRef } from 'react';
 
 
 export default function Formations() {
+
+    const [data, setData] = useState([]);
+
+
+    useEffect(() => {
+        fetch('http://localhost:5000/formations')
+            .then(response => response.json())
+            .then(data => setData(data))
+    }, []);
+
+    interface Formation {
+        oclock: {
+            title: string,
+            level: string,
+            school: string,
+            city: string,
+            description: string,
+            description_1: string,
+            description_1_2: string,
+            description_2: string,
+            description_2_2: string,
+            description_3: string,
+            start: string,
+            end: string
+        },
+        couturier: {
+            title: string,
+            level: string,
+            school: string,
+            city: string,
+            description: string,
+            description_1: string,
+            description_2: string,
+            description_3: string,
+            start: string,
+            end: string
+        },
+        chavanne: {
+            title: string,
+            level: string,
+            school: string,
+            city: string,
+            description: string,
+            description_1: string,
+            description_2: string,
+            description_3: string,
+            start: string,
+            end: string
+        }
+    }
 
     const myRef = useRef(null);
     const [isVisible, setVisible] = useState(false);
@@ -19,60 +68,61 @@ export default function Formations() {
     }, []);
 
     return (
-        <div ref={myRef} className={`formations-main ${ isVisible ? 'active' : '' }`} id="formations">
+        <div ref={myRef} className={`formations-main ${isVisible ? 'active' : ''}`} id="formations">
             <h1 className='formations-title'>Formations</h1>
             <div className="formations-table">
-                <div className="formations-container">
-                    <div className="formations-top">
-                        <div className="formations-dev">
-                            <h1 className="formations-subtitle">Développeur Web FullStack Javascript</h1>
-                            <h2 className='formations-level'>(Niveau Bac +2)</h2>
-                            <h1 className='formations-oclock-subtitle'>O'Clock - Paris</h1>
-                            <ul className='formations-list'>
-                                <li className="formations-item">- 798 heures de formation</li>
-                                <li className="formations-item">- 3 mois de socle : <span className="formations-item-word">HTML </span>
-                                    | <span className="formations-item-word">CSS</span> | <span className="formations-item-word">Javascript </span>
-                                    | <span className="formations-item-word">Node.js</span> | <span className="formations-item-word">PostgreSQL</span></li>
-                                <li className="formations-item">- 1 mois de spécialisation : <span className="formations-item-word">React</span> |
-                                    <span className="formations-item-word"> Redux</span></li>
-                                <li className="formations-item">- 1 mois de projet en équipe: O'Food </li>
-                            </ul>
-                            <div className="formations-row">
-                                <p className='formations-year'>Décembre 2021 à Mai 2022</p>
+                {data.map((info:Formation, i) => (
+                    <div key={i} className="formations-container">
+                        <div className="formations-top">
+                            <div className="formations-dev">
+                                <h1 className="formations-subtitle">{info.oclock.title}</h1>
+                                <h2 className='formations-level'>{info.oclock.level}</h2>
+                                <h1 className='formations-oclock-subtitle'>{info.oclock.school} - {info.oclock.city}</h1>
+                                <ul className='formations-list'>
+                                    <li className="formations-item">{info.oclock.description}</li>
+                                    <li className="formations-item">{info.oclock.description_1} <span className="formations-item-word">{info.oclock.description_1_2}</span>
+                                    </li>
+                                    <li className="formations-item">{info.oclock.description_2} <span className="formations-item-word">{info.oclock.description_2_2}</span>
+                                    </li>
+                                    <li className="formations-item">{info.oclock.description_3} </li>
+                                </ul>
+                                <div className="formations-row">
+                                    <p className='formations-year'>{info.oclock.start} à {info.oclock.end}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="formations-bottom">
+                            <div className="formations-bus">
+                                <h1 className="formations-subtitle">{info.couturier.title}</h1>
+                                <h2 className='formations-level'>{info.couturier.level}</h2>
+                                <h1 className='formations-oclock-subtitle'>{info.couturier.school} - {info.couturier.city}</h1>
+                                <ul className='formations-list'>
+                                    <li className="formations-item">{info.couturier.description}</li>
+                                    <li className="formations-item">{info.couturier.description_1}</li>
+                                    <li className="formations-item">{info.couturier.description_2}</li>
+                                    <li className="formations-item">{info.couturier.description_3}</li>
+                                </ul>
+                                <div className="formations-row">
+                                    <p className='formations-year'>{info.couturier.start} à {info.couturier.end}</p>
+                                </div>
+                            </div>
+                            <div className="formations-commerce">
+                                <h1 className="formations-subtitle">{info.chavanne.title}</h1>
+                                <h2 className='formations-level'>{info.chavanne.level}</h2>
+                                <h1 className='formations-oclock-subtitle'>{info.chavanne.school} - {info.chavanne.city}</h1>
+                                <ul className='formations-list'>
+                                    <li className="formations-item">{info.chavanne.description}</li>
+                                    <li className="formations-item">{info.chavanne.description_1}</li>
+                                    <li className="formations-item">{info.chavanne.description_2}</li>
+                                    <li className="formations-item">{info.chavanne.description_3}</li>
+                                </ul>
+                                <div className="formations-row">
+                                    <p className='formations-year'>{info.chavanne.start} à {info.chavanne.end}</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className="formations-bottom">
-                        <div className="formations-bus">
-                            <h1 className="formations-subtitle">Transports Voyageurs</h1>
-                            <h2 className='formations-level'>(Permis D)</h2>
-                            <h1 className='formations-oclock-subtitle'>Couturier - Dreux</h1>
-                            <ul className='formations-list'>
-                                <li className="formations-item">- Conduire et manoeuvrer en sécurité un véhicule</li>
-                                <li className="formations-item">- Accueillir, informer la clientèle</li>
-                                <li className="formations-item">- Prendre connaissance du voyage et préparer le déplacement</li>
-                                <li className="formations-item">- Effectuer les contrôles de sécurité</li>
-                            </ul>
-                            <div className="formations-row">
-                                <p className='formations-year'>Janvier 2012 à Juin 2012</p>
-                            </div>
-                        </div>
-                        <div className="formations-commerce">
-                            <h1 className="formations-subtitle">Employé de Commerce</h1>
-                            <h2 className='formations-level'>(Niveau Bac)</h2>
-                            <h1 className='formations-oclock-subtitle'>Lycée André Chavanne - Suisse</h1>
-                            <ul className='formations-list'>
-                                <li className="formations-item">- Correspondance commerciale</li>
-                                <li className="formations-item">- Comptabilité</li>
-                                <li className="formations-item">- Secrétariat</li>
-                                <li className="formations-item">- Gestion des relations clients</li>
-                            </ul>
-                            <div className="formations-row">
-                                <p className='formations-year'>Septembre 2005 à Juillet 2009</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                ))}
             </div>
         </div>
     );
