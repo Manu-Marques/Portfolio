@@ -71,7 +71,7 @@ export default function Formations() {
         <div ref={myRef} className={`formations-main ${isVisible ? 'active' : ''}`} id="formations">
             <h1 className='formations-title'>Formations</h1>
             <div className="formations-table">
-                {data.map((info: Formation, i) => (
+                {data.map((info:Formation, i) => (
                     <div key={i} className="formations-container">
                         <div className="formations-top">
                             <div className="formations-dev">

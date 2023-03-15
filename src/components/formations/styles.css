@@ -1,4 +1,4 @@
-.formations-main {
+.formations-main{
     position: relative;
     z-index: 5;
     padding-bottom: 20px;
@@ -13,7 +13,6 @@
     from {
         opacity: 0;
     }
-
     to {
         opacity: 1;
     }
@@ -115,7 +114,7 @@
     justify-content: center;
 }
 
-.formations-item-word {
+.formations-item-word{
     color: transparent;
     -webkit-text-stroke: 1px #fff;
     text-shadow: 1px -5px 2px, 0 0 1em blue, 0 0 0.2em blue;
@@ -127,10 +126,10 @@
     .formations-table {
         margin: 50px auto;
     }
-
+    
 }
 
-@media screen and (max-width:1220px) {
+@media  screen and (max-width:1220px){
 
     .formations-table {
         width: 80%;

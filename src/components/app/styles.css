@@ -237,8 +237,8 @@
         height: 80%;
     }
 
-    .home-menu {
-        width: 750px;
+    .home-menu{
+        width:750px ;
     }
 
 }
@@ -252,8 +252,8 @@
         font-size: 2em;
     }
 
-    .home-menu {
-        width: 650px;
+    .home-menu{
+        width:650px ;
     }
 
 }
@@ -267,8 +267,8 @@
         font-size: 1.5em;
     }
 
-    .home-menu {
-        width: 550px;
+    .home-menu{
+        width:550px ;
     }
 
     .home-right,
@@ -280,8 +280,8 @@
 
 @media screen and (max-width: 500px) {
 
-    .home-menu {
-        width: 450px;
+    .home-menu{
+        width:450px ;
     }
 
     .home-right,
@@ -327,7 +327,7 @@
         border-bottom: 2px solid white;
     }
 
-    .home-formations {
+    .home-formations{
         border: none;
     }
 

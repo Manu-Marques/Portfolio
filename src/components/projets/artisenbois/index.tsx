@@ -28,7 +28,7 @@ export default function Artisenbois() {
 
     return (
         <div className="artisenbois">
-            {data.map((info: Artisenbois, i) => (
+            {data.map((info:Artisenbois, i) => (
                 <><h1 className='artisenbois-title'>{info.artisenbois.title}</h1><div className="artisenbois-container">
                     <div className="artisenbois-container-img">
                         <img className='artisenbois-img' src={logo} alt="logo">

@@ -1,6 +1,5 @@
 import "./styles.css";
 import { useState, useEffect, useRef } from "react";
-import svg from "../../../src/assets/expressjs.svg";
 
 export default function Skills() {
 
@@ -254,7 +253,7 @@ export default function Skills() {
                         </div><div className="skills-languages">
                             <h1 className="skills-subtitle">Langues</h1>
                             <ul className="skills-list">
-                                <li className="skills-item">{info.langues.france.title} : {info.langues.france.level}</li>
+                            <li className="skills-item">{info.langues.france.title} : {info.langues.france.level}</li>
                                 <li className="skills-item">{info.langues.anglais.title} : {info.langues.anglais.level}</li>
                                 <li className="skills-item">{info.langues.portugais.title} : {info.langues.portugais.level}</li>
                             </ul>

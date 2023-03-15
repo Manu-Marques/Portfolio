@@ -29,7 +29,6 @@ export default function Arrow() {
                     <i className="fa fa-arrow-up fa-1x">
                     </i>
                 </div>
-
             )}
         </div>
     );
